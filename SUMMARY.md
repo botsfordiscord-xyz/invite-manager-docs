@@ -1,4 +1,5 @@
 # Table of contents
 
-* [InviteManager](README.md)
+* [Initial page](README.md)
+* [Getting Started](getting-started.md)
 
