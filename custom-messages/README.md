@@ -22,7 +22,7 @@ we can easily do that by replacing all the names and the number with placeholder
 
 `Welcome {memberMention}! You were invited by {inviterName}, who now has {numInvites} invites! Have fun on our server!`
 
-So you can now do !config joinMessage &lt;message from above&gt; to set the message. Our bot will automatically replace the placeholders every time someone joins.
+So you can now do `!config joinMessage <message from above>` to set the message. Our bot will automatically replace the placeholders every time someone joins.
 
 {% hint style="info" %}
 Premium users can also use embeds in their join and leave messages.
