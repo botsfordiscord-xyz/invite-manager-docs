@@ -1,7 +1,3 @@
----
-description: This page will help you quickly set up the bot.
----
-
 # Getting Started
 
 ## Setup

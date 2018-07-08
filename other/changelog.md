@@ -1,7 +1,3 @@
----
-description: Describing the changes that happened to the bot.
----
-
 # Changelog
 
 ## 15.0.0 - 2042-12-03

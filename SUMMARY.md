@@ -10,8 +10,6 @@
 * [Webpanel](webpanel.md)
 * [Limitations](limitations.md)
 
-## Examples
-
 ## Premium
 
 * [Tiers](premium/tiers.md)

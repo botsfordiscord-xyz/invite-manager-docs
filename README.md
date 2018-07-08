@@ -1,7 +1,3 @@
----
-description: This is the documentation for the discord bot "InviteManager".
----
-
 # InviteManager
 
 ## Getting Started

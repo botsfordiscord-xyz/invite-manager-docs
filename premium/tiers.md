@@ -1,7 +1,3 @@
----
-description: This page describes the different tiers that are available.
----
-
 # Tiers
 
 ## $1/month
