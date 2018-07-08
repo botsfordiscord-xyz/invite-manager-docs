@@ -1,23 +1,18 @@
+---
+description: This is the documentation for the discord bot "InviteManager".
+---
+
 # InviteManager
 
-## Getting Super Powers
+## Getting Started
 
-Becoming a super hero is a fairly straight forward process:
+{% page-ref page="getting-started.md" %}
 
-```
-$ give me super-powers
-```
+## Premium / Donation
 
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
+Our 
 
-Once you're strong enough, save the world:
-
-```
-// Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
+## Reporting Issues or Requesting Features
 
 
 

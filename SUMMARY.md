@@ -2,9 +2,27 @@
 
 * [InviteManager](README.md)
 * [Getting Started](getting-started.md)
-* [Custom Messages](custom-messages.md)
-* [Untitled](untitled.md)
+* [Commands](commands.md)
+* [Custom Messages](custom-messages/README.md)
+  * [Join Message Examples](custom-messages/join-message-examples.md)
+  * [Leave Message Examples](custom-messages/leave-message-examples.md)
+* [FAQ](faq.md)
+* [Webpanel](webpanel.md)
 * [Limitations](limitations.md)
-* [Announcements](announcements.md)
-* [Changelog](changelog.md)
+
+## Examples
+
+## Premium
+
+* [Tiers](premium/tiers.md)
+* [Extra Features](premium/extra-features.md)
+
+## Other
+
+* [Announcements](other/announcements.md)
+* [Changelog](other/changelog.md)
+* [Roadmap](other/roadmap.md)
+* [Donating](other/donating.md)
+* [Support](other/support.md)
+* [Open Source](other/open-source.md)
 
