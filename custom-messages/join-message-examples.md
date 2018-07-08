@@ -1,4 +1,8 @@
-# Join Message Examples
+---
+description: Some examples of custom messages
+---
+
+# Examples
 
 
 
