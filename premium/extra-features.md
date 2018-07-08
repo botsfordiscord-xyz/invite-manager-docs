@@ -1,9 +1,3 @@
----
-description: >-
-  A list of features that are available for premium members (if included in
-  their tier).
----
-
 # Extra Features
 
 ## Join And Leave Message Styling

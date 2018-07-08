@@ -1,7 +1,3 @@
----
-description: This is a list of frequently asked questions.
----
-
 # FAQ
 
 ## How do I change the prefix of the bot?
