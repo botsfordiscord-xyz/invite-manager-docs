@@ -3,10 +3,10 @@
 * [InviteManager](README.md)
 * [Getting Started](getting-started.md)
 * [Commands](commands.md)
+* [FAQ](faq.md)
 * [Custom Messages](custom-messages/README.md)
   * [Join Message Examples](custom-messages/join-message-examples.md)
   * [Leave Message Examples](custom-messages/leave-message-examples.md)
-* [FAQ](faq.md)
 * [Webpanel](webpanel.md)
 * [Limitations](limitations.md)
 
