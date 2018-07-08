@@ -9,6 +9,7 @@
   * [Leave Message Examples](custom-messages/leave-message-examples.md)
 * [Webpanel](webpanel.md)
 * [Limitations](limitations.md)
+* [Translations](translations.md)
 
 ## Premium
 

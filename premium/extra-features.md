@@ -2,8 +2,6 @@
 
 ## Join And Leave Message Styling
 
-
-
 ## Custom Bot Instance With Custom Logo And Name
 
 ## Special Discord Role
