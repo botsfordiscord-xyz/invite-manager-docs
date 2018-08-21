@@ -35,7 +35,7 @@ Please see the examples page to see what kind of messages you can make!
 ### Placeholders
 
 |  | join | leave | example | description |
-| --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- |
 | {memberName} | yes | yes | Andy | The name of the member that just joined your discord server |
 | {memberId} | yes | yes | 436844634 | The discord ID of the member that just joined your server |
 | {memberMention} | yes | no | @Andy | The mention of the member that just joined your discord server \(person will be pinged\). |
