@@ -15,7 +15,7 @@ If you prefer, you can also pay with **Paypal** or **Cryptocurrencies**.
 ### $5/month
 
 * All of the above
-* Access to our InviteManager Pro bot
+* Access to our InviteManager Pro bot \(on up to 5 of your servers\)
   * The bot has an orange logo and the name "InviteManager Pro"
   * Runs on separate servers and is not affected by downtimes of our main bot
 * Embed styling of join and leave messages, as well as rank promotion announcements
@@ -27,7 +27,7 @@ If you prefer, you can also pay with **Paypal** or **Cryptocurrencies**.
 ### $10/month
 
 * All of the above
-* Your own, personal bot instance
+* Your own, personal bot instance \(on up to 5 of your servers\)
   * Custom logo
   * Custom name
   * Runs on completely different servers and is not affected by outages of the main bot
