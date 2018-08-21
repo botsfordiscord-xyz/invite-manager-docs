@@ -8,7 +8,7 @@ The "bot" part handles commands and responds to the user.
 
 Written with `discord.js` and `yamdbf`.
 
-{% embed data="{\"url\":\"https://github.com/SideProjectGuys/invite-manager-bot\\n\",\"type\":\"link\",\"title\":\"SideProjectGuys/invite-manager-bot\",\"description\":\"Contribute to invite-manager-bot development by creating an account on Github.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars0.githubusercontent.com/u/40593492?s=400&v=4\",\"width\":420,\"height\":420,\"aspectRatio\":1}}" %}
+[https://github.com/SideProjectGuys/invite-manager-bot](https://github.com/SideProjectGuys/invite-manager-bot)
 
 ## invite-manager-tracker
 
