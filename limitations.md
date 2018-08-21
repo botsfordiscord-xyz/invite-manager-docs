@@ -4,7 +4,7 @@ description: This page shows the limitations that this bot has.
 
 # Limitations
 
-### No tracking before the bot joins
+### No advanced tracking before the bot joins
 
-Our bot can only track invites that happened after it has been added to a server. So it is not possible to know who invited someone if it happened in the past, before the bot was added.
+Advanced tracking \(who invited who\) only works after you have invited the bot. The bot will still know everyones invite count after you invite it, don't worry. Just the additional information is missing and can only be collected for members who join after you invited the bot.
 

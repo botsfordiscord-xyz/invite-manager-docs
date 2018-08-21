@@ -10,11 +10,12 @@
 * [Webpanel](webpanel.md)
 * [Limitations](limitations.md)
 * [Translations](translations.md)
+* [InviteManager Pro](invitemanager-pro.md)
 
 ## Premium
 
-* [Tiers](premium/tiers.md)
-* [Extra Features](premium/extra-features.md)
+* [Features](premium/features.md)
+* [Pricing](premium/tiers.md)
 
 ## Other
 
