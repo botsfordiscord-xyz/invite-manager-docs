@@ -1,22 +1,23 @@
 # Translations
 
-The main language of the InviteManager is english. All commands, descriptions and explanations are written in english and are available immediately when a new feature is released.  
-  
-Translations are done by volunteers.
+The main language of the InviteManager is english. Translations are done by volunteers.
 
-Currently, have at least partial translations available for these languages:
+Currently, we have at least partial translations available for these languages:
 
+* Spanish
+  * thanks to **legendarylol**
 * Portuguese
   * thanks to **CyberDarkBR**
+* French
+  * thanks to **Lorio - Le P'tit PandaRoux** 
 * German \(incomplete\)
-* French \(incomplete\)
+  * thanks to **Cuz\_Im\_Master\_YT** and **Hardener**
 * Italian \(incomplete\)
-* Spanish \(incomplete\)
-* Dutch \(incomplete\)
-* Swedish \(incomplete\)
+* Lithuanian \(incomplete\)
+* Greek \(incomplete\)
 * Romanian \(incomplete\)
 
 ## Help
 
-If you would like to help us with the translations of an existing language, or add a completely new language, please join our [support server on discord](https://discord.gg/x3NGUSX) and look for the instructions in one of the international channels.
+If you would like to help us with the translations of an existing language, or add a completely new language, please join our [support server on discord](https://discord.gg/x3NGUSX) and tell the staff you would like to help translate the bot.
 
