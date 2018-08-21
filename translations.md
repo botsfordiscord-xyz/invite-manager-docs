@@ -2,20 +2,22 @@
 
 The main language of the InviteManager is english. Translations are done by volunteers.
 
-Currently, we have at least partial translations available for these languages:
+The following languages are available
 
-* Spanish
+* Spanish \(es\)
   * thanks to **legendarylol**
-* Portuguese
+* Portuguese \(pt\)
   * thanks to **CyberDarkBR**
-* French
+* French \(fr\)
   * thanks to **Lorio - Le P'tit PandaRoux** 
-* German \(incomplete\)
+* German \(de, incomplete\)
   * thanks to **Cuz\_Im\_Master\_YT** and **Hardener**
-* Italian \(incomplete\)
-* Lithuanian \(incomplete\)
-* Greek \(incomplete\)
-* Romanian \(incomplete\)
+* Italian \(it, incomplete\)
+* Lithuanian \(li, incomplete\)
+* Greek \(gr, incomplete\)
+* Romanian \(ro, incomplete\)
+
+To change the language you can use the command `!config lang en` . Replace "en" with the language you want to use.
 
 ## Help
 

@@ -1,6 +1,6 @@
 # Commands
 
-To get a list of available commands, do \`!help\` on your server.
+To get a list of available commands, do `!help` on your server.
 
 ## Important Commands
 
@@ -10,7 +10,7 @@ Members on your server can use the `!invites` command to check their invite coun
 
 ### !leaderboard
 
-The !leaderboard or !top command shows a list of the members with the most invites on your server
+The `!leaderboard` or `!top` command shows a list of the members with the most invites on your server
 
 ### !info @user
 
