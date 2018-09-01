@@ -2,128 +2,67 @@
 
 # Overview
 
-prefix
-[test](#logChannel)
-
-lang
-
-logChannel
-
-getUpdates
-
-joinMessage
-
-joinMessageChannel
-
-leaveMessage
-
-leaveMessageChannel
-
-leaderboardStyle
-
-hideLeftMembersFromLeaderboard
-
-autoSubtractFakes
-
-autoSubtractLeaves
-
-autoSubtractLeaveThreshold
-
-rankAssignmentStyle
-
-rankAnnouncementChannel
-
-rankAnnouncementMessage
-
-mutedRole
-
-captchaVerificationOnJoin
-
-captchaVerificationWelcomeMessage
-
-captchaVerificationSuccessMessage
-
-captchaVerificationFailedMessage
-
-captchaVerificationTimeout
-
-captchaVerificationLogEnabled
-
-modLogChannel
-
-modPunishmentBanDeleteMessage
-
-modPunishmentKickDeleteMessage
-
-modPunishmentSoftbanDeleteMessage
-
-modPunishmentWarnDeleteMessage
-
-modPunishmentMuteDeleteMessage
-
-autoModEnabled
-
-autoModModeratedChannels
-
-autoModModeratedRoles
-
-autoModIgnoredChannels
-
-autoModIgnoredRoles
-
-autoModDeleteBotMessage
-
-autoModDeleteBotMessageTimeoutInSeconds
-
-autoModLogEnabled
-
-autoModDisabledForOldMembers
-
-autoModDisabledForOldMembersThreshold
-
-autoModDisabledForOldMembersReceiveSilentWarning
-
-autoModInvitesEnabled
-
-autoModLinksEnabled
-
-autoModLinksWhitelist
-
-autoModLinksBlacklist
-
-autoModLinksFollowRedirects
-
-autoModWordsEnabled
-
-autoModWordsBlacklist
-
-autoModAllCapsEnabled
-
-autoModAllCapsMinCharacters
-
-autoModAllCapsPercentageCaps
-
-autoModDuplicateTextEnabled
-
-autoModDuplicateTextTimeframeInSeconds
-
-autoModQuickMessagesEnabled
-
-autoModQuickMessagesNumberOfMessages
-
-autoModQuickMessagesTimeframeInSeconds
-
-autoModMentionUsersEnabled
-
-autoModMentionUsersMaxNumberOfMentions
-
-autoModMentionRolesEnabled
-
-autoModMentionRolesMaxNumberOfMentions
-
-autoModEmojisEnabled
-
-autoModEmojisMaxNumberOfEmojis
+- [prefix](#prefix)
+- [lang](#lang)
+- [logChannel](#logchannel)
+- [getUpdates](#getupdates)
+- [joinMessage](#joinmessage)
+- [joinMessageChannel](#joinmessagechannel)
+- [leaveMessage](#leavemessage)
+- [leaveMessageChannel](#leavemessagechannel)
+- [leaderboardStyle](#leaderboardstyle)
+- [hideLeftMembersFromLeaderboard](#hideleftmembersfromleaderboard)
+- [autoSubtractFakes](#autosubtractfakes)
+- [autoSubtractLeaves](#autosubtractleaves)
+- [autoSubtractLeaveThreshold](#autosubtractleavethreshold)
+- [rankAssignmentStyle](#rankassignmentstyle)
+- [rankAnnouncementChannel](#rankannouncementchannel)
+- [rankAnnouncementMessage](#rankannouncementmessage)
+- [mutedRole](#mutedrole)
+- [captchaVerificationOnJoin](#captchaverificationonjoin)
+- [captchaVerificationWelcomeMessage](#captchaverificationwelcomemessage)
+- [captchaVerificationSuccessMessage](#captchaverificationsuccessmessage)
+- [captchaVerificationFailedMessage](#captchaverificationfailedmessage)
+- [captchaVerificationTimeout](#captchaverificationtimeout)
+- [captchaVerificationLogEnabled](#captchaverificationlogenabled)
+- [modLogChannel](#modlogchannel)
+- [modPunishmentBanDeleteMessage](#modpunishmentbandeletemessage)
+- [modPunishmentKickDeleteMessage](#modpunishmentkickdeletemessage)
+- [modPunishmentSoftbanDeleteMessage](#modpunishmentsoftbandeletemessage)
+- [modPunishmentWarnDeleteMessage](#modpunishmentwarndeletemessage)
+- [modPunishmentMuteDeleteMessage](#modpunishmentmutedeletemessage)
+- [autoModEnabled](#automodenabled)
+- [autoModModeratedChannels](#automodmoderatedchannels)
+- [autoModModeratedRoles](#automodmoderatedroles)
+- [autoModIgnoredChannels](#automodignoredchannels)
+- [autoModIgnoredRoles](#automodignoredroles)
+- [autoModDeleteBotMessage](#automoddeletebotmessage)
+- [autoModDeleteBotMessageTimeoutInSeconds](#automoddeletebotmessagetimeoutinseconds)
+- [autoModLogEnabled](#automodlogenabled)
+- [autoModDisabledForOldMembers](#automoddisabledforoldmembers)
+- [autoModDisabledForOldMembersThreshold](#automoddisabledforoldmembersthreshold)
+- [autoModDisabledForOldMembersReceiveSilentWarning](#automoddisabledforoldmembersreceivesilentwarning)
+- [autoModInvitesEnabled](#automodinvitesenabled)
+- [autoModLinksEnabled](#automodlinksenabled)
+- [autoModLinksWhitelist](#automodlinkswhitelist)
+- [autoModLinksBlacklist](#automodlinksblacklist)
+- [autoModLinksFollowRedirects](#automodlinksfollowredirects)
+- [autoModWordsEnabled](#automodwordsenabled)
+- [autoModWordsBlacklist](#automodwordsblacklist)
+- [autoModAllCapsEnabled](#automodallcapsenabled)
+- [autoModAllCapsMinCharacters](#automodallcapsmincharacters)
+- [autoModAllCapsPercentageCaps](#automodallcapspercentagecaps)
+- [autoModDuplicateTextEnabled](#automodduplicatetextenabled)
+- [autoModDuplicateTextTimeframeInSeconds](#automodduplicatetexttimeframeinseconds)
+- [autoModQuickMessagesEnabled](#automodquickmessagesenabled)
+- [autoModQuickMessagesNumberOfMessages](#automodquickmessagesnumberofmessages)
+- [autoModQuickMessagesTimeframeInSeconds](#automodquickmessagestimeframeinseconds)
+- [autoModMentionUsersEnabled](#automodmentionusersenabled)
+- [autoModMentionUsersMaxNumberOfMentions](#automodmentionusersmaxnumberofmentions)
+- [autoModMentionRolesEnabled](#automodmentionrolesenabled)
+- [autoModMentionRolesMaxNumberOfMentions](#automodmentionrolesmaxnumberofmentions)
+- [autoModEmojisEnabled](#automodemojisenabled)
+- [autoModEmojisMaxNumberOfEmojis](#automodemojismaxnumberofemojis)
 
 # Detailed Config Options
 
