@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-{% page-ref page="getting-started.md" %}
+{% page-ref page="overview/getting-started.md" %}
 
 ## Premium / Donation
 

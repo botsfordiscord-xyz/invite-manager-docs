@@ -1,7 +1,3 @@
----
-description: This page shows the limitations that this bot has.
----
-
 # Limitations
 
 ### No advanced tracking before the bot joins

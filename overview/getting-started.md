@@ -22,7 +22,7 @@ and for leave messages
 
 You can customise the message that gets posted when a user joins and leaves. Please read the "Custom Messages" page for more info about how to do that.
 
-{% page-ref page="custom-messages/" %}
+{% page-ref page="../invites/custom-messages/" %}
 
 
 

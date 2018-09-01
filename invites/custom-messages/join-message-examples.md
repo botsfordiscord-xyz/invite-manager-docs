@@ -1,7 +1,3 @@
----
-description: Some examples of custom messages
----
-
 # Examples
 
 ### Normal
@@ -14,7 +10,7 @@ description: Some examples of custom messages
 
 {% tabs %}
 {% tab title="Screenshot" %}
-![Join Embed](../.gitbook/assets/screen-shot-2018-07-08-at-01.00.55.png)
+![Join Embed](../../.gitbook/assets/screen-shot-2018-07-08-at-01.00.55.png)
 {% endtab %}
 
 {% tab title="Code" %}
@@ -24,7 +20,7 @@ description: Some examples of custom messages
 
 {% tabs %}
 {% tab title="Screenshot" %}
-![Leave Embed](../.gitbook/assets/screen-shot-2018-07-08-at-01.05.02.png)
+![Leave Embed](../../.gitbook/assets/screen-shot-2018-07-08-at-01.05.02.png)
 
   
 {% endtab %}

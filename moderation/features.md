@@ -8,7 +8,7 @@
 
 ### Special Discord Role
 
-### Priority Support
+### Priority Support 
 
 ### Access to InviteManager Pro bot \(Orange Logo\)
 

@@ -1,7 +1,7 @@
 # Pricing
 
-There are several premium tiers available on [Patreon](https://www.patreon.com/invitemanager). Our premium service is subscription based, which means you will have to pay monthly to use it.
-
+There are several premium tiers available on [Patreon](https://www.patreon.com/invitemanager). Our premium service is subscription based, which means you will have to pay monthly to use it.  
+  
 If you prefer, you can also pay with **Paypal** or **Cryptocurrencies**.
 
 ## Pricing
@@ -42,4 +42,10 @@ If you prefer, you can also pay with **Paypal** or **Cryptocurrencies**.
 
 * All of the above
 * Request new feature that fits your need \(needs to be invite related, please contact us first\)
+
+
+
+
+
+
 

@@ -1,7 +1,3 @@
----
-description: Information about the InviteManager Pro bot
----
-
 # InviteManager Pro
 
 The InviteManager Pro bot is available to our premium subscribers with the $5/month tier or higher.  

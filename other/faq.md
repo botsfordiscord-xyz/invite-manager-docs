@@ -30,7 +30,7 @@ or
 
 There are many placeholders available. You can see the full list on the "Custom Messages" page.
 
-{% page-ref page="custom-messages/" %}
+{% page-ref page="../invites/custom-messages/" %}
 
 ## What are "Ranks" and how can I use them?
 

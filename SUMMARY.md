@@ -4,19 +4,20 @@
 * [InviteManager Pro](invitemanager-pro.md)
 
 ## Overview
-* [Getting Started](getting-started.md)
-* [Commands](commands.md)
-* [Configs](configs.md)
+
+* [Getting Started](overview/getting-started.md)
+* [Commands](overview/commands.md)
+* [Configs](overview/configs.md)
 
 ## Invites
 
-* [Custom Messages](custom-messages/README.md)
-  * [Examples](custom-messages/join-message-examples.md)
+* [Custom Messages](invites/custom-messages/README.md)
+  * [Examples](invites/custom-messages/join-message-examples.md)
 
 ## Moderation
 
-* [Features](premium/features.md)
-* [Pricing](premium/tiers.md)
+* [Features](moderation/features.md)
+* [Pricing](moderation/tiers.md)
 
 ## Premium
 
@@ -25,12 +26,10 @@
 
 ## Other
 
-* [FAQ](faq.md)
-* [Webpanel](webpanel.md)
-* [Translations](translations.md)
-* [Limitations](limitations.md)
-* [Changelog](other/changelog.md)
-* [Roadmap](other/roadmap.md)
+* [FAQ](other/faq.md)
+* [Webpanel](other/webpanel.md)
+* [Translations](other/translations.md)
+* [Limitations](other/limitations.md)
 * [Donating](other/donating.md)
 * [Support](other/support.md)
 * [Open Source](other/open-source.md)
