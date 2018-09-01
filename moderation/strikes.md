@@ -36,9 +36,9 @@ You can check the current config by doing:
 !strikeconfig
 ```
 
-## Detailed list of violations
+# Detailed list of violations
 
-### invites
+## invites
 
 This violation is triggered whenever the user posts an invite link to another discord server.
 
@@ -55,7 +55,7 @@ To delete the strike config:
 - [autoModInvitesEnabled](https://docs.invitemanager.co/bot/other/configs#automodinvitesenabled)
 
 
-### links
+## links
 
 This violation is triggered whenever the user posts a link.
 
@@ -75,7 +75,7 @@ To delete the strike config:
 - [autoModLinksFollowRedirects](https://docs.invitemanager.co/bot/other/configs#automodlinksfollowredirects)
 
 
-### words
+## words
 
 This violation is triggered whenever the user posts blacklisted words.
 
@@ -93,7 +93,7 @@ To delete the strike config:
 - [autoModWordsBlacklist](https://docs.invitemanager.co/bot/other/configs#automodwordsblacklist)
 
 
-### allCaps
+## allCaps
 
 This violation is triggered whenever the user posts a message that is mostly in CAPS.
 
@@ -112,7 +112,7 @@ To delete the strike config:
 - [autoModAllCapsPercentageCaps](https://docs.invitemanager.co/bot/other/configs#automodallcapspercentagecaps)
 
 
-### duplicateText
+## duplicateText
 
 This violation is triggered whenever the user posts the same text multiple times.
 
@@ -130,7 +130,7 @@ To delete the strike config:
 - [autoModDuplicateTextTimeframeInSeconds](https://docs.invitemanager.co/bot/other/configs#automodduplicatetexttimeframeinseconds)
 
 
-### quickMessages
+## quickMessages
 
 This violation is triggered whenever the user quickly posts messages.
 
@@ -149,7 +149,7 @@ To delete the strike config:
 - [autoModQuickMessagesTimeframeInSeconds](https://docs.invitemanager.co/bot/other/configs#automodquickmessagestimeframeinseconds)
 
 
-### mentionUsers
+## mentionUsers
 
 This violation is triggered whenever the user mentions mutliple users.
 
@@ -167,7 +167,7 @@ To delete the strike config:
 - [autoModMentionUsersMaxNumberOfMentions](https://docs.invitemanager.co/bot/other/configs#automodmentionusersmaxnumberofmentions)
 
 
-### mentionRoles
+## mentionRoles
 
 This violation is triggered whenever the user mentions mutliple roles.
 
@@ -185,7 +185,7 @@ To delete the strike config:
 - [autoModMentionRolesMaxNumberOfMentions](https://docs.invitemanager.co/bot/other/configs#automodmentionrolesmaxnumberofmentions)
 
 
-### emojis
+## emojis
 
 This violation is triggered whenever the user posts multiple emojis.
 
