@@ -42,6 +42,12 @@ You can check the current config by doing:
 
 This violation is triggered whenever the user posts an invite link to another discord server.
 
+```!strikeconfig invites 1```
+
+To delete the strike config:
+
+```!strikeconfig invites 0```
+
 **Config options:**
 
 - [autoModInvitesEnabled](https://docs.invitemanager.co/bot/other/configs#automodinvitesenabled)
@@ -50,6 +56,12 @@ This violation is triggered whenever the user posts an invite link to another di
 ### links
 
 This violation is triggered whenever the user posts a link.
+
+```!strikeconfig links 1```
+
+To delete the strike config:
+
+```!strikeconfig links 0```
 
 **Config options:**
 
@@ -63,6 +75,12 @@ This violation is triggered whenever the user posts a link.
 
 This violation is triggered whenever the user posts blacklisted words.
 
+```!strikeconfig words 1```
+
+To delete the strike config:
+
+```!strikeconfig words 0```
+
 **Config options:**
 
 - [autoModWordsEnabled](https://docs.invitemanager.co/bot/other/configs#automodwordsenabled)
@@ -72,6 +90,12 @@ This violation is triggered whenever the user posts blacklisted words.
 ### allCaps
 
 This violation is triggered whenever the user posts a message that is mostly in CAPS.
+
+```!strikeconfig allCaps 1```
+
+To delete the strike config:
+
+```!strikeconfig allCaps 0```
 
 **Config options:**
 
@@ -84,6 +108,12 @@ This violation is triggered whenever the user posts a message that is mostly in 
 
 This violation is triggered whenever the user posts the same text multiple times.
 
+```!strikeconfig duplicateText 1```
+
+To delete the strike config:
+
+```!strikeconfig duplicateText 0```
+
 **Config options:**
 
 - [autoModDuplicateTextEnabled](https://docs.invitemanager.co/bot/other/configs#automodduplicatetextenabled)
@@ -93,6 +123,12 @@ This violation is triggered whenever the user posts the same text multiple times
 ### quickMessages
 
 This violation is triggered whenever the user quickly posts messages.
+
+```!strikeconfig quickMessages 1```
+
+To delete the strike config:
+
+```!strikeconfig quickMessages 0```
 
 **Config options:**
 
@@ -105,6 +141,12 @@ This violation is triggered whenever the user quickly posts messages.
 
 This violation is triggered whenever the user mentions mutliple users.
 
+```!strikeconfig mentionUsers 1```
+
+To delete the strike config:
+
+```!strikeconfig mentionUsers 0```
+
 **Config options:**
 
 - [autoModMentionUsersEnabled](https://docs.invitemanager.co/bot/other/configs#automodmentionusersenabled)
@@ -115,6 +157,12 @@ This violation is triggered whenever the user mentions mutliple users.
 
 This violation is triggered whenever the user mentions mutliple roles.
 
+```!strikeconfig mentionRoles 1```
+
+To delete the strike config:
+
+```!strikeconfig mentionRoles 0```
+
 **Config options:**
 
 - [autoModMentionRolesEnabled](https://docs.invitemanager.co/bot/other/configs#automodmentionrolesenabled)
@@ -124,6 +172,12 @@ This violation is triggered whenever the user mentions mutliple roles.
 ### emojis
 
 This violation is triggered whenever the user posts multiple emojis.
+
+```!strikeconfig emojis 1```
+
+To delete the strike config:
+
+```!strikeconfig emojis 0```
 
 **Config options:**
 
