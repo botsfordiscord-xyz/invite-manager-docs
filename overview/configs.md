@@ -3,6 +3,7 @@
 # Overview
 
 prefix
+[test](#logChannel)
 
 lang
 
