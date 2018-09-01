@@ -16,8 +16,9 @@
 
 ## Moderation
 
-* [Features](moderation/features.md)
-* [Pricing](moderation/tiers.md)
+* [Overview](moderation/overview.md)
+* [Strikes](moderation/strikes.md)
+* [Punishments](moderation/punishments.md)
 
 ## Premium
 
