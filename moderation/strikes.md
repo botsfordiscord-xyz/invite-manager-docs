@@ -8,6 +8,36 @@ Strikes are points that users get for violating server rules. Every time the use
 
 Violations are rules that you can enable or disable on your server. Currently, the following violations exist:
 
+- invites
+- links
+- words
+- allCaps
+- duplicateText
+- quickMessages
+- mentionUsers
+- mentionRoles
+- emojis
+
+For each of those violations, you have to define how many strikes will be given if someone violates it. You can do that by using the `strikeconfig` command:
+
+```
+!strikeconfig <violationType> <numberOfStrikes>
+```
+
+For example, if you want users to get `2` strikes for violating the `invites` rule, then you would use the following command:
+
+```
+!strikeconfig invites 2
+```
+
+You can check the current config by doing:
+
+```
+!strikeconfig
+```
+
+## Detailed list of violations
+
 ### invites
 
 This violation is triggered whenever the user posts an invite link to another discord server.
