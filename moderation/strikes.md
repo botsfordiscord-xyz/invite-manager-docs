@@ -1,5 +1,3 @@
-# Strikes
-
 # What are strikes?
 
 Strikes are points that users get for violating server rules. Every time the user receives a strike, he gets a personal message telling him how many strikes he has and why he got them. When a user reaches a certain amount of strikes, he will receive a **punishment**.
