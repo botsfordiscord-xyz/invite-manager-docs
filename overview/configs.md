@@ -1,85 +1,94 @@
-# Configs
+# Full Config Reference
+
+## Configs
 
 There are many config options that can be set. You don't have to set all of them. If you just added the bot, just run `!setup`, which will guide you through the most important ones.
 
-# Basic
-- [prefix](#prefix)
-- [lang](#lang)
-- [logChannel](#logchannel)
-- [getUpdates](#getupdates)
+## Basic
 
-# JoinLeaveMessage
-- [joinMessage](#joinmessage)
-- [joinMessageChannel](#joinmessagechannel)
-- [leaveMessage](#leavemessage)
-- [leaveMessageChannel](#leavemessagechannel)
+* [prefix](configs.md#prefix)
+* [lang](configs.md#lang)
+* [logChannel](configs.md#logchannel)
+* [getUpdates](configs.md#getupdates)
 
-# Invites
-- [autoSubtractFakes](#autosubtractfakes)
-- [autoSubtractLeaves](#autosubtractleaves)
-- [autoSubtractLeaveThreshold](#autosubtractleavethreshold)
+## JoinLeaveMessage
 
-# Ranks
-- [rankAssignmentStyle](#rankassignmentstyle)
-- [rankAnnouncementChannel](#rankannouncementchannel)
-- [rankAnnouncementMessage](#rankannouncementmessage)
+* [joinMessage](configs.md#joinmessage)
+* [joinMessageChannel](configs.md#joinmessagechannel)
+* [leaveMessage](configs.md#leavemessage)
+* [leaveMessageChannel](configs.md#leavemessagechannel)
 
-# Leaderboard
-- [leaderboardStyle](#leaderboardstyle)
-- [hideLeftMembersFromLeaderboard](#hideleftmembersfromleaderboard)
+## Invites
 
-# Captcha
-- [captchaVerificationOnJoin](#captchaverificationonjoin)
-- [captchaVerificationWelcomeMessage](#captchaverificationwelcomemessage)
-- [captchaVerificationSuccessMessage](#captchaverificationsuccessmessage)
-- [captchaVerificationFailedMessage](#captchaverificationfailedmessage)
-- [captchaVerificationTimeout](#captchaverificationtimeout)
-- [captchaVerificationLogEnabled](#captchaverificationlogenabled)
+* [autoSubtractFakes](configs.md#autosubtractfakes)
+* [autoSubtractLeaves](configs.md#autosubtractleaves)
+* [autoSubtractLeaveThreshold](configs.md#autosubtractleavethreshold)
 
-# Moderation
-- [mutedRole](#mutedrole)
-- [modLogChannel](#modlogchannel)
-- [modPunishmentBanDeleteMessage](#modpunishmentbandeletemessage)
-- [modPunishmentKickDeleteMessage](#modpunishmentkickdeletemessage)
-- [modPunishmentSoftbanDeleteMessage](#modpunishmentsoftbandeletemessage)
-- [modPunishmentWarnDeleteMessage](#modpunishmentwarndeletemessage)
-- [modPunishmentMuteDeleteMessage](#modpunishmentmutedeletemessage)
-- [autoModEnabled](#automodenabled)
-- [autoModModeratedChannels](#automodmoderatedchannels)
-- [autoModModeratedRoles](#automodmoderatedroles)
-- [autoModIgnoredChannels](#automodignoredchannels)
-- [autoModIgnoredRoles](#automodignoredroles)
-- [autoModDeleteBotMessage](#automoddeletebotmessage)
-- [autoModDeleteBotMessageTimeoutInSeconds](#automoddeletebotmessagetimeoutinseconds)
-- [autoModLogEnabled](#automodlogenabled)
-- [autoModDisabledForOldMembers](#automoddisabledforoldmembers)
-- [autoModDisabledForOldMembersThreshold](#automoddisabledforoldmembersthreshold)
-- [autoModDisabledForOldMembersReceiveSilentWarning](#automoddisabledforoldmembersreceivesilentwarning)
-- [autoModInvitesEnabled](#automodinvitesenabled)
-- [autoModLinksEnabled](#automodlinksenabled)
-- [autoModLinksWhitelist](#automodlinkswhitelist)
-- [autoModLinksBlacklist](#automodlinksblacklist)
-- [autoModLinksFollowRedirects](#automodlinksfollowredirects)
-- [autoModWordsEnabled](#automodwordsenabled)
-- [autoModWordsBlacklist](#automodwordsblacklist)
-- [autoModAllCapsEnabled](#automodallcapsenabled)
-- [autoModAllCapsMinCharacters](#automodallcapsmincharacters)
-- [autoModAllCapsPercentageCaps](#automodallcapspercentagecaps)
-- [autoModDuplicateTextEnabled](#automodduplicatetextenabled)
-- [autoModDuplicateTextTimeframeInSeconds](#automodduplicatetexttimeframeinseconds)
-- [autoModQuickMessagesEnabled](#automodquickmessagesenabled)
-- [autoModQuickMessagesNumberOfMessages](#automodquickmessagesnumberofmessages)
-- [autoModQuickMessagesTimeframeInSeconds](#automodquickmessagestimeframeinseconds)
-- [autoModMentionUsersEnabled](#automodmentionusersenabled)
-- [autoModMentionUsersMaxNumberOfMentions](#automodmentionusersmaxnumberofmentions)
-- [autoModMentionRolesEnabled](#automodmentionrolesenabled)
-- [autoModMentionRolesMaxNumberOfMentions](#automodmentionrolesmaxnumberofmentions)
-- [autoModEmojisEnabled](#automodemojisenabled)
-- [autoModEmojisMaxNumberOfEmojis](#automodemojismaxnumberofemojis)
+## Ranks
 
-# Detailed Config Options
+* [rankAssignmentStyle](configs.md#rankassignmentstyle)
+* [rankAnnouncementChannel](configs.md#rankannouncementchannel)
+* [rankAnnouncementMessage](configs.md#rankannouncementmessage)
 
-## prefix
+## Leaderboard
+
+* [leaderboardStyle](configs.md#leaderboardstyle)
+* [hideLeftMembersFromLeaderboard](configs.md#hideleftmembersfromleaderboard)
+
+## Captcha
+
+* [captchaVerificationOnJoin](configs.md#captchaverificationonjoin)
+* [captchaVerificationWelcomeMessage](configs.md#captchaverificationwelcomemessage)
+* [captchaVerificationSuccessMessage](configs.md#captchaverificationsuccessmessage)
+* [captchaVerificationFailedMessage](configs.md#captchaverificationfailedmessage)
+* [captchaVerificationTimeout](configs.md#captchaverificationtimeout)
+* [captchaVerificationLogEnabled](configs.md#captchaverificationlogenabled)
+
+## Moderation
+
+* [mutedRole](configs.md#mutedrole)
+* [modLogChannel](configs.md#modlogchannel)
+* [modPunishmentBanDeleteMessage](configs.md#modpunishmentbandeletemessage)
+* [modPunishmentKickDeleteMessage](configs.md#modpunishmentkickdeletemessage)
+* [modPunishmentSoftbanDeleteMessage](configs.md#modpunishmentsoftbandeletemessage)
+* [modPunishmentWarnDeleteMessage](configs.md#modpunishmentwarndeletemessage)
+* [modPunishmentMuteDeleteMessage](configs.md#modpunishmentmutedeletemessage)
+* [autoModEnabled](configs.md#automodenabled)
+* [autoModModeratedChannels](configs.md#automodmoderatedchannels)
+* [autoModModeratedRoles](configs.md#automodmoderatedroles)
+* [autoModIgnoredChannels](configs.md#automodignoredchannels)
+* [autoModIgnoredRoles](configs.md#automodignoredroles)
+* [autoModDeleteBotMessage](configs.md#automoddeletebotmessage)
+* [autoModDeleteBotMessageTimeoutInSeconds](configs.md#automoddeletebotmessagetimeoutinseconds)
+* [autoModLogEnabled](configs.md#automodlogenabled)
+* [autoModDisabledForOldMembers](configs.md#automoddisabledforoldmembers)
+* [autoModDisabledForOldMembersThreshold](configs.md#automoddisabledforoldmembersthreshold)
+* [autoModDisabledForOldMembersReceiveSilentWarning](configs.md#automoddisabledforoldmembersreceivesilentwarning)
+* [autoModInvitesEnabled](configs.md#automodinvitesenabled)
+* [autoModLinksEnabled](configs.md#automodlinksenabled)
+* [autoModLinksWhitelist](configs.md#automodlinkswhitelist)
+* [autoModLinksBlacklist](configs.md#automodlinksblacklist)
+* [autoModLinksFollowRedirects](configs.md#automodlinksfollowredirects)
+* [autoModWordsEnabled](configs.md#automodwordsenabled)
+* [autoModWordsBlacklist](configs.md#automodwordsblacklist)
+* [autoModAllCapsEnabled](configs.md#automodallcapsenabled)
+* [autoModAllCapsMinCharacters](configs.md#automodallcapsmincharacters)
+* [autoModAllCapsPercentageCaps](configs.md#automodallcapspercentagecaps)
+* [autoModDuplicateTextEnabled](configs.md#automodduplicatetextenabled)
+* [autoModDuplicateTextTimeframeInSeconds](configs.md#automodduplicatetexttimeframeinseconds)
+* [autoModQuickMessagesEnabled](configs.md#automodquickmessagesenabled)
+* [autoModQuickMessagesNumberOfMessages](configs.md#automodquickmessagesnumberofmessages)
+* [autoModQuickMessagesTimeframeInSeconds](configs.md#automodquickmessagestimeframeinseconds)
+* [autoModMentionUsersEnabled](configs.md#automodmentionusersenabled)
+* [autoModMentionUsersMaxNumberOfMentions](configs.md#automodmentionusersmaxnumberofmentions)
+* [autoModMentionRolesEnabled](configs.md#automodmentionrolesenabled)
+* [autoModMentionRolesMaxNumberOfMentions](configs.md#automodmentionrolesmaxnumberofmentions)
+* [autoModEmojisEnabled](configs.md#automodemojisenabled)
+* [autoModEmojisMaxNumberOfEmojis](configs.md#automodemojismaxnumberofemojis)
+
+## Detailed Config Options
+
+### prefix
 
 The prefix needed to use bot commands. If you don't remember your prefix, you can do @InviteManager config prefix
 
@@ -89,8 +98,7 @@ Default: `!`
 
 **Configuration**
 
-Reset to default:
-`!config prefix default`
+Reset to default: `!config prefix default`
 
 Examples:
 
@@ -98,9 +106,7 @@ Examples:
 
 `!config prefix >`
 
-
-
-## lang
+### lang
 
 Set the language of the bot
 
@@ -110,8 +116,7 @@ Default: `en`
 
 **Configuration**
 
-Reset to default:
-`!config lang default`
+Reset to default: `!config lang default`
 
 Possible values: `de`, `en`, `es`, `fr`, `it`, `nl`, `pt`, `ro`, `sv`
 
@@ -119,11 +124,9 @@ Example:
 
 `!config lang de`
 
+### logChannel
 
-
-## logChannel
-
-The channel where changes to the database are made (add-ranks, clear-invites, etc.)
+The channel where changes to the database are made \(add-ranks, clear-invites, etc.\)
 
 Type: `Channel`
 
@@ -131,16 +134,13 @@ Default: `null`
 
 **Configuration**
 
-Reset to default:
-`!config logChannel default`
+Reset to default: `!config logChannel default`
 
 Examples:
 
 `!config logChannel #channel`
 
-
-
-## getUpdates
+### getUpdates
 
 Whether or not you want to receive updates of our bot in the log or mod channel.
 
@@ -150,8 +150,7 @@ Default: `true`
 
 **Configuration**
 
-Reset to default:
-`!config getUpdates default`
+Reset to default: `!config getUpdates default`
 
 Enable:
 
@@ -161,9 +160,7 @@ Disable:
 
 `!config getUpdates false`
 
-
-
-## joinMessage
+### joinMessage
 
 The message that will be posted every time a member joins your server.
 
@@ -173,18 +170,19 @@ Default: `{memberMention} **joined**; Invited by **{inviterName}** (**{numInvite
 
 **Configuration**
 
-Reset to default:
-`!config joinMessage default`
+Reset to default: `!config joinMessage default`
 
 Examples:
 
-`!config joinMessage `
+`!config joinMessage`
 
-`!config joinMessage `
+`!config joinMessage`
 
-{% hint style="info" %} Premium users can use embeds as join messages. {% endhint %}
+{% hint style="info" %}
+Premium users can use embeds as join messages.
+{% endhint %}
 
-## joinMessageChannel
+### joinMessageChannel
 
 The channel where join messages will be posted.
 
@@ -194,8 +192,7 @@ Default: `null`
 
 **Configuration**
 
-Reset to default:
-`!config joinMessageChannel default`
+Reset to default: `!config joinMessageChannel default`
 
 Examples:
 
@@ -203,9 +200,7 @@ Examples:
 
 `!config joinMessageChannel #joins`
 
-
-
-## leaveMessage
+### leaveMessage
 
 The message that will be posted every time a member leaves your server.
 
@@ -215,18 +210,19 @@ Default: `{memberName} **left**; Invited by **{inviterName}**`
 
 **Configuration**
 
-Reset to default:
-`!config leaveMessage default`
+Reset to default: `!config leaveMessage default`
 
 Examples:
 
-`!config leaveMessage `
+`!config leaveMessage`
 
-`!config leaveMessage `
+`!config leaveMessage`
 
-{% hint style="info" %} Premium users can use embeds as leave messages. {% endhint %}
+{% hint style="info" %}
+Premium users can use embeds as leave messages.
+{% endhint %}
 
-## leaveMessageChannel
+### leaveMessageChannel
 
 The channel where leave messages will be posted.
 
@@ -236,8 +232,7 @@ Default: `null`
 
 **Configuration**
 
-Reset to default:
-`!config leaveMessageChannel default`
+Reset to default: `!config leaveMessageChannel default`
 
 Examples:
 
@@ -245,9 +240,7 @@ Examples:
 
 `!config leaveMessageChannel #leaves`
 
-
-
-## leaderboardStyle
+### leaderboardStyle
 
 Change the style how the leaderboard is displayed.
 
@@ -257,8 +250,7 @@ Default: `normal`
 
 **Configuration**
 
-Reset to default:
-`!config leaderboardStyle default`
+Reset to default: `!config leaderboardStyle default`
 
 Possible values: `normal`, `table`, `mentions`
 
@@ -266,9 +258,7 @@ Example:
 
 `!config leaderboardStyle normal`
 
-
-
-## hideLeftMembersFromLeaderboard
+### hideLeftMembersFromLeaderboard
 
 Whether or not to hide people who left from the leaderboard.
 
@@ -278,8 +268,7 @@ Default: `true`
 
 **Configuration**
 
-Reset to default:
-`!config hideLeftMembersFromLeaderboard default`
+Reset to default: `!config hideLeftMembersFromLeaderboard default`
 
 Enable:
 
@@ -289,9 +278,7 @@ Disable:
 
 `!config hideLeftMembersFromLeaderboard false`
 
-
-
-## autoSubtractFakes
+### autoSubtractFakes
 
 Should fake invites automatically be subtracted from invites?
 
@@ -301,8 +288,7 @@ Default: `true`
 
 **Configuration**
 
-Reset to default:
-`!config autoSubtractFakes default`
+Reset to default: `!config autoSubtractFakes default`
 
 Enable:
 
@@ -312,9 +298,7 @@ Disable:
 
 `!config autoSubtractFakes false`
 
-
-
-## autoSubtractLeaves
+### autoSubtractLeaves
 
 Should members who leave be subtracted from their inviters?
 
@@ -324,8 +308,7 @@ Default: `true`
 
 **Configuration**
 
-Reset to default:
-`!config autoSubtractLeaves default`
+Reset to default: `!config autoSubtractLeaves default`
 
 Enable:
 
@@ -335,11 +318,9 @@ Disable:
 
 `!config autoSubtractLeaves false`
 
+### autoSubtractLeaveThreshold
 
-
-## autoSubtractLeaveThreshold
-
-The time (in seconds) within leaves will be subtracted from the inviter.
+The time \(in seconds\) within leaves will be subtracted from the inviter.
 
 Type: `Number`
 
@@ -347,8 +328,7 @@ Default: `600`
 
 **Configuration**
 
-Reset to default:
-`!config autoSubtractLeaveThreshold default`
+Reset to default: `!config autoSubtractLeaveThreshold default`
 
 Examples:
 
@@ -356,9 +336,7 @@ Examples:
 
 `!config autoSubtractLeaveThreshold 3600`
 
-
-
-## rankAssignmentStyle
+### rankAssignmentStyle
 
 If set to `highest`, only the highest rank will assigned to the member when reaching a new rank.If set to `all`, all ranks will be assigned to the member when reaching a new rank.
 
@@ -368,8 +346,7 @@ Default: `all`
 
 **Configuration**
 
-Reset to default:
-`!config rankAssignmentStyle default`
+Reset to default: `!config rankAssignmentStyle default`
 
 Possible values: `all`, `highest`
 
@@ -377,9 +354,7 @@ Example:
 
 `!config rankAssignmentStyle all`
 
-
-
-## rankAnnouncementChannel
+### rankAnnouncementChannel
 
 The channel where rank changes are announced.
 
@@ -389,18 +364,15 @@ Default: `null`
 
 **Configuration**
 
-Reset to default:
-`!config rankAnnouncementChannel default`
+Reset to default: `!config rankAnnouncementChannel default`
 
 Examples:
 
-`!config rankAnnouncementChannel `
+`!config rankAnnouncementChannel`
 
-`!config rankAnnouncementChannel `
+`!config rankAnnouncementChannel`
 
-
-
-## rankAnnouncementMessage
+### rankAnnouncementMessage
 
 The message that will be posted when a member reaches a new rank.
 
@@ -410,18 +382,19 @@ Default: `Congratulations, **{memberMention}** has reached the **{rankName}** ra
 
 **Configuration**
 
-Reset to default:
-`!config rankAnnouncementMessage default`
+Reset to default: `!config rankAnnouncementMessage default`
 
 Examples:
 
-`!config rankAnnouncementMessage `
+`!config rankAnnouncementMessage`
 
-`!config rankAnnouncementMessage `
+`!config rankAnnouncementMessage`
 
-{% hint style="info" %} Premium users can use embeds as rank announcement messages. {% endhint %}
+{% hint style="info" %}
+Premium users can use embeds as rank announcement messages.
+{% endhint %}
 
-## mutedRole
+### mutedRole
 
 The role that will be assigned if a member is muted by the bot
 
@@ -431,16 +404,13 @@ Default: `null`
 
 **Configuration**
 
-Reset to default:
-`!config mutedRole default`
+Reset to default: `!config mutedRole default`
 
 Examples:
 
 `!config mutedRole @muted`
 
-
-
-## captchaVerificationOnJoin
+### captchaVerificationOnJoin
 
 If enabled, new members have to verify they are human by entering a captcha that is sent to them via DM. If they fail to enter the captcha within the specified time, they will be kicked from the server.
 
@@ -450,8 +420,7 @@ Default: `false`
 
 **Configuration**
 
-Reset to default:
-`!config captchaVerificationOnJoin default`
+Reset to default: `!config captchaVerificationOnJoin default`
 
 Enable:
 
@@ -461,11 +430,13 @@ Disable:
 
 `!config captchaVerificationOnJoin false`
 
-{% hint style="info" %} This feature is only available for premium users. {% endhint %}
+{% hint style="info" %}
+This feature is only available for premium users.
+{% endhint %}
 
-## captchaVerificationWelcomeMessage
+### captchaVerificationWelcomeMessage
 
-The message users receive together with the captcha (via DM)
+The message users receive together with the captcha \(via DM\)
 
 Type: `String`
 
@@ -473,16 +444,17 @@ Default: `Welcome to the server **{serverName}**! For extra protection, new memb
 
 **Configuration**
 
-Reset to default:
-`!config captchaVerificationWelcomeMessage default`
+Reset to default: `!config captchaVerificationWelcomeMessage default`
 
 Examples:
 
 `!config captchaVerificationWelcomeMessage Welcome, please enter the captcha below!`
 
-{% hint style="info" %} This feature is only available for premium users. {% endhint %}
+{% hint style="info" %}
+This feature is only available for premium users.
+{% endhint %}
 
-## captchaVerificationSuccessMessage
+### captchaVerificationSuccessMessage
 
 The message users will get after successfully entering the captcha.
 
@@ -492,16 +464,17 @@ Default: `You have successfully entered the captcha. Welcome to the server!`
 
 **Configuration**
 
-Reset to default:
-`!config captchaVerificationSuccessMessage default`
+Reset to default: `!config captchaVerificationSuccessMessage default`
 
 Examples:
 
 `!config captchaVerificationSuccessMessage Thanks for entering the captcha, enjoy our server!`
 
-{% hint style="info" %} This feature is only available for premium users. {% endhint %}
+{% hint style="info" %}
+This feature is only available for premium users.
+{% endhint %}
 
-## captchaVerificationFailedMessage
+### captchaVerificationFailedMessage
 
 The message users will get if they fail to enter the right captcha within the specified time. After getting this message, they will be kicked from the server.
 
@@ -511,18 +484,19 @@ Default: `You did not enter the captha right within the specified time.We're sor
 
 **Configuration**
 
-Reset to default:
-`!config captchaVerificationFailedMessage default`
+Reset to default: `!config captchaVerificationFailedMessage default`
 
 Examples:
 
 `!config captchaVerificationFailedMessage Looks like you are not human :(. You can join again and try again later if this was a mistake!`
 
-{% hint style="info" %} This feature is only available for premium users. {% endhint %}
+{% hint style="info" %}
+This feature is only available for premium users.
+{% endhint %}
 
-## captchaVerificationTimeout
+### captchaVerificationTimeout
 
-The time within the member needs to enter the captcha successfully (in seconds).
+The time within the member needs to enter the captcha successfully \(in seconds\).
 
 Type: `Number`
 
@@ -530,8 +504,7 @@ Default: `180`
 
 **Configuration**
 
-Reset to default:
-`!config captchaVerificationTimeout default`
+Reset to default: `!config captchaVerificationTimeout default`
 
 Examples:
 
@@ -539,9 +512,11 @@ Examples:
 
 `!config captchaVerificationTimeout 600`
 
-{% hint style="info" %} This feature is only available for premium users. {% endhint %}
+{% hint style="info" %}
+This feature is only available for premium users.
+{% endhint %}
 
-## captchaVerificationLogEnabled
+### captchaVerificationLogEnabled
 
 Whether or not new captcha entries are logged to a channel
 
@@ -551,8 +526,7 @@ Default: `true`
 
 **Configuration**
 
-Reset to default:
-`!config captchaVerificationLogEnabled default`
+Reset to default: `!config captchaVerificationLogEnabled default`
 
 Enable:
 
@@ -562,9 +536,11 @@ Disable:
 
 `!config captchaVerificationLogEnabled false`
 
-{% hint style="info" %} This feature is only available for premium users. {% endhint %}
+{% hint style="info" %}
+This feature is only available for premium users.
+{% endhint %}
 
-## modLogChannel
+### modLogChannel
 
 The channel where moderation log messages will be posted.
 
@@ -574,8 +550,7 @@ Default: `null`
 
 **Configuration**
 
-Reset to default:
-`!config modLogChannel default`
+Reset to default: `!config modLogChannel default`
 
 Examples:
 
@@ -583,9 +558,7 @@ Examples:
 
 `!config modLogChannel #logs`
 
-
-
-## modPunishmentBanDeleteMessage
+### modPunishmentBanDeleteMessage
 
 Whether or not the own and bot message should be deleted when a mod does !ban.
 
@@ -595,8 +568,7 @@ Default: `true`
 
 **Configuration**
 
-Reset to default:
-`!config modPunishmentBanDeleteMessage default`
+Reset to default: `!config modPunishmentBanDeleteMessage default`
 
 Enable:
 
@@ -606,9 +578,7 @@ Disable:
 
 `!config modPunishmentBanDeleteMessage false`
 
-
-
-## modPunishmentKickDeleteMessage
+### modPunishmentKickDeleteMessage
 
 Whether or not the own and bot message should be deleted when a mod does !kick.
 
@@ -618,8 +588,7 @@ Default: `true`
 
 **Configuration**
 
-Reset to default:
-`!config modPunishmentKickDeleteMessage default`
+Reset to default: `!config modPunishmentKickDeleteMessage default`
 
 Enable:
 
@@ -629,9 +598,7 @@ Disable:
 
 `!config modPunishmentKickDeleteMessage false`
 
-
-
-## modPunishmentSoftbanDeleteMessage
+### modPunishmentSoftbanDeleteMessage
 
 Whether or not the own and bot message should be deleted when a mod does !softban.
 
@@ -641,8 +608,7 @@ Default: `true`
 
 **Configuration**
 
-Reset to default:
-`!config modPunishmentSoftbanDeleteMessage default`
+Reset to default: `!config modPunishmentSoftbanDeleteMessage default`
 
 Enable:
 
@@ -652,9 +618,7 @@ Disable:
 
 `!config modPunishmentSoftbanDeleteMessage false`
 
-
-
-## modPunishmentWarnDeleteMessage
+### modPunishmentWarnDeleteMessage
 
 Whether or not the own and bot message should be deleted when a mod does !warn.
 
@@ -664,8 +628,7 @@ Default: `true`
 
 **Configuration**
 
-Reset to default:
-`!config modPunishmentWarnDeleteMessage default`
+Reset to default: `!config modPunishmentWarnDeleteMessage default`
 
 Enable:
 
@@ -675,9 +638,7 @@ Disable:
 
 `!config modPunishmentWarnDeleteMessage false`
 
-
-
-## modPunishmentMuteDeleteMessage
+### modPunishmentMuteDeleteMessage
 
 Whether or not the own and bot message should be deleted when a mod does !mute.
 
@@ -687,8 +648,7 @@ Default: `true`
 
 **Configuration**
 
-Reset to default:
-`!config modPunishmentMuteDeleteMessage default`
+Reset to default: `!config modPunishmentMuteDeleteMessage default`
 
 Enable:
 
@@ -698,9 +658,7 @@ Disable:
 
 `!config modPunishmentMuteDeleteMessage false`
 
-
-
-## autoModEnabled
+### autoModEnabled
 
 Whether or not auto-moderation is enabled globally.
 
@@ -710,8 +668,7 @@ Default: `false`
 
 **Configuration**
 
-Reset to default:
-`!config autoModEnabled default`
+Reset to default: `!config autoModEnabled default`
 
 Enable:
 
@@ -721,11 +678,9 @@ Disable:
 
 `!config autoModEnabled false`
 
+### autoModModeratedChannels
 
-
-## autoModModeratedChannels
-
-Set channels that should be auto-moderated. (Comma separated list)
+Set channels that should be auto-moderated. \(Comma separated list\)
 
 Type: `List of Channel`
 
@@ -733,8 +688,7 @@ Default: `null`
 
 **Configuration**
 
-Reset to default:
-`!config autoModModeratedChannels default`
+Reset to default: `!config autoModModeratedChannels default`
 
 Examples:
 
@@ -742,11 +696,9 @@ Examples:
 
 `!config autoModModeratedChannels #support,#help`
 
+### autoModModeratedRoles
 
-
-## autoModModeratedRoles
-
-Roles that will be auto-moderated. (Comma separated list)
+Roles that will be auto-moderated. \(Comma separated list\)
 
 Type: `List of Role`
 
@@ -754,8 +706,7 @@ Default: `null`
 
 **Configuration**
 
-Reset to default:
-`!config autoModModeratedRoles default`
+Reset to default: `!config autoModModeratedRoles default`
 
 Examples:
 
@@ -763,11 +714,9 @@ Examples:
 
 `!config autoModModeratedRoles @Newbies,@Starters`
 
+### autoModIgnoredChannels
 
-
-## autoModIgnoredChannels
-
-Set channels that should not be auto-moderated. (Comma separated list)
+Set channels that should not be auto-moderated. \(Comma separated list\)
 
 Type: `List of Channel`
 
@@ -775,8 +724,7 @@ Default: `null`
 
 **Configuration**
 
-Reset to default:
-`!config autoModIgnoredChannels default`
+Reset to default: `!config autoModIgnoredChannels default`
 
 Examples:
 
@@ -784,11 +732,9 @@ Examples:
 
 `!config autoModIgnoredChannels #off-topic,#nsfw`
 
+### autoModIgnoredRoles
 
-
-## autoModIgnoredRoles
-
-Roles that will not be auto-moderated. (Comma separated list)
+Roles that will not be auto-moderated. \(Comma separated list\)
 
 Type: `List of Role`
 
@@ -796,8 +742,7 @@ Default: `null`
 
 **Configuration**
 
-Reset to default:
-`!config autoModIgnoredRoles default`
+Reset to default: `!config autoModIgnoredRoles default`
 
 Examples:
 
@@ -805,9 +750,7 @@ Examples:
 
 `!config autoModIgnoredRoles @Moderators,@Staff`
 
-
-
-## autoModDeleteBotMessage
+### autoModDeleteBotMessage
 
 Whether or not to delete bot messages after auto-moderation.
 
@@ -817,8 +760,7 @@ Default: `true`
 
 **Configuration**
 
-Reset to default:
-`!config autoModDeleteBotMessage default`
+Reset to default: `!config autoModDeleteBotMessage default`
 
 Enable:
 
@@ -828,11 +770,9 @@ Disable:
 
 `!config autoModDeleteBotMessage false`
 
+### autoModDeleteBotMessageTimeoutInSeconds
 
-
-## autoModDeleteBotMessageTimeoutInSeconds
-
-How long (in seconds) until auto-moderation responses from the bot are deleted. If set to 0, the bot will not post a message and only delete the violating message and warn the user.
+How long \(in seconds\) until auto-moderation responses from the bot are deleted. If set to 0, the bot will not post a message and only delete the violating message and warn the user.
 
 Type: `Number`
 
@@ -840,8 +780,7 @@ Default: `5`
 
 **Configuration**
 
-Reset to default:
-`!config autoModDeleteBotMessageTimeoutInSeconds default`
+Reset to default: `!config autoModDeleteBotMessageTimeoutInSeconds default`
 
 Examples:
 
@@ -849,9 +788,7 @@ Examples:
 
 `!config autoModDeleteBotMessageTimeoutInSeconds 10`
 
-
-
-## autoModLogEnabled
+### autoModLogEnabled
 
 If set to yes, all moderation actions will be logged to the `modLogChannel`.
 
@@ -861,8 +798,7 @@ Default: `true`
 
 **Configuration**
 
-Reset to default:
-`!config autoModLogEnabled default`
+Reset to default: `!config autoModLogEnabled default`
 
 Enable:
 
@@ -872,9 +808,7 @@ Disable:
 
 `!config autoModLogEnabled false`
 
-
-
-## autoModDisabledForOldMembers
+### autoModDisabledForOldMembers
 
 If enabled, members that have been on the server for a certain amount of time will not be auto-moderated. You can set the threshold for how long that is.
 
@@ -884,8 +818,7 @@ Default: `false`
 
 **Configuration**
 
-Reset to default:
-`!config autoModDisabledForOldMembers default`
+Reset to default: `!config autoModDisabledForOldMembers default`
 
 Enable:
 
@@ -895,11 +828,9 @@ Disable:
 
 `!config autoModDisabledForOldMembers false`
 
+### autoModDisabledForOldMembersThreshold
 
-
-## autoModDisabledForOldMembersThreshold
-
-After how long (in seconds) members will no longer be auto-moderated (if enabled).
+After how long \(in seconds\) members will no longer be auto-moderated \(if enabled\).
 
 Type: `Number`
 
@@ -907,18 +838,15 @@ Default: `604800`
 
 **Configuration**
 
-Reset to default:
-`!config autoModDisabledForOldMembersThreshold default`
+Reset to default: `!config autoModDisabledForOldMembersThreshold default`
 
 Examples:
 
-`!config autoModDisabledForOldMembersThreshold 604800` (1 week)``
+`!config autoModDisabledForOldMembersThreshold 604800` \(1 week\)\`\`
 
-`!config autoModDisabledForOldMembersThreshold 2419200` (1 month)``
+`!config autoModDisabledForOldMembersThreshold 2419200` \(1 month\)\`\`
 
-
-
-## autoModDisabledForOldMembersReceiveSilentWarning
+### autoModDisabledForOldMembersReceiveSilentWarning
 
 If enabled, old members will still receive a warning via DM when violating a rule.
 
@@ -928,8 +856,7 @@ Default: `true`
 
 **Configuration**
 
-Reset to default:
-`!config autoModDisabledForOldMembersReceiveSilentWarning default`
+Reset to default: `!config autoModDisabledForOldMembersReceiveSilentWarning default`
 
 Enable:
 
@@ -939,9 +866,7 @@ Disable:
 
 `!config autoModDisabledForOldMembersReceiveSilentWarning false`
 
-
-
-## autoModInvitesEnabled
+### autoModInvitesEnabled
 
 If enabled, invite links will be auto-moderated.
 
@@ -951,8 +876,7 @@ Default: `true`
 
 **Configuration**
 
-Reset to default:
-`!config autoModInvitesEnabled default`
+Reset to default: `!config autoModInvitesEnabled default`
 
 Enable:
 
@@ -962,9 +886,7 @@ Disable:
 
 `!config autoModInvitesEnabled false`
 
-
-
-## autoModLinksEnabled
+### autoModLinksEnabled
 
 If enabled, links will be auto-moderated.
 
@@ -974,8 +896,7 @@ Default: `true`
 
 **Configuration**
 
-Reset to default:
-`!config autoModLinksEnabled default`
+Reset to default: `!config autoModLinksEnabled default`
 
 Enable:
 
@@ -985,9 +906,7 @@ Disable:
 
 `!config autoModLinksEnabled false`
 
-
-
-## autoModLinksWhitelist
+### autoModLinksWhitelist
 
 A comma separated list of links that are allowed to be posted.
 
@@ -997,8 +916,7 @@ Default: `null`
 
 **Configuration**
 
-Reset to default:
-`!config autoModLinksWhitelist default`
+Reset to default: `!config autoModLinksWhitelist default`
 
 Examples:
 
@@ -1006,9 +924,7 @@ Examples:
 
 `!config autoModLinksWhitelist youtube.com,twitch.com`
 
-
-
-## autoModLinksBlacklist
+### autoModLinksBlacklist
 
 A comma separated list of links that are not allowed to be posted.
 
@@ -1018,8 +934,7 @@ Default: `null`
 
 **Configuration**
 
-Reset to default:
-`!config autoModLinksBlacklist default`
+Reset to default: `!config autoModLinksBlacklist default`
 
 Examples:
 
@@ -1027,11 +942,9 @@ Examples:
 
 `!config autoModLinksBlacklist twitch.com,youtube.com`
 
+### autoModLinksFollowRedirects
 
-
-## autoModLinksFollowRedirects
-
-If enabled, our bot will follow redirects to see where a link leads (to prevent people from using link-shorteners.)
+If enabled, our bot will follow redirects to see where a link leads \(to prevent people from using link-shorteners.\)
 
 Type: `Boolean`
 
@@ -1039,8 +952,7 @@ Default: `true`
 
 **Configuration**
 
-Reset to default:
-`!config autoModLinksFollowRedirects default`
+Reset to default: `!config autoModLinksFollowRedirects default`
 
 Enable:
 
@@ -1050,9 +962,11 @@ Disable:
 
 `!config autoModLinksFollowRedirects false`
 
-{% hint style="info" %} This feature is only available for premium users. {% endhint %}
+{% hint style="info" %}
+This feature is only available for premium users.
+{% endhint %}
 
-## autoModWordsEnabled
+### autoModWordsEnabled
 
 If enabled, certain words will be auto-moderated.
 
@@ -1062,8 +976,7 @@ Default: `true`
 
 **Configuration**
 
-Reset to default:
-`!config autoModWordsEnabled default`
+Reset to default: `!config autoModWordsEnabled default`
 
 Enable:
 
@@ -1073,9 +986,7 @@ Disable:
 
 `!config autoModWordsEnabled false`
 
-
-
-## autoModWordsBlacklist
+### autoModWordsBlacklist
 
 A comma separated list of words that will be auto-moderated.
 
@@ -1085,8 +996,7 @@ Default: `null`
 
 **Configuration**
 
-Reset to default:
-`!config autoModWordsBlacklist default`
+Reset to default: `!config autoModWordsBlacklist default`
 
 Examples:
 
@@ -1094,9 +1004,7 @@ Examples:
 
 `!config autoModWordsBlacklist stupid,fuck`
 
-
-
-## autoModAllCapsEnabled
+### autoModAllCapsEnabled
 
 If enabled, messages written in all/mostly CAPS will be auto-moderated.
 
@@ -1106,8 +1014,7 @@ Default: `true`
 
 **Configuration**
 
-Reset to default:
-`!config autoModAllCapsEnabled default`
+Reset to default: `!config autoModAllCapsEnabled default`
 
 Enable:
 
@@ -1117,9 +1024,7 @@ Disable:
 
 `!config autoModAllCapsEnabled false`
 
-
-
-## autoModAllCapsMinCharacters
+### autoModAllCapsMinCharacters
 
 How long a message needs to be until this violation is activated.
 
@@ -1129,8 +1034,7 @@ Default: `10`
 
 **Configuration**
 
-Reset to default:
-`!config autoModAllCapsMinCharacters default`
+Reset to default: `!config autoModAllCapsMinCharacters default`
 
 Examples:
 
@@ -1138,9 +1042,7 @@ Examples:
 
 `!config autoModAllCapsMinCharacters 15`
 
-
-
-## autoModAllCapsPercentageCaps
+### autoModAllCapsPercentageCaps
 
 Percentage of letters that need to be CAPS to be triggered.
 
@@ -1150,8 +1052,7 @@ Default: `70`
 
 **Configuration**
 
-Reset to default:
-`!config autoModAllCapsPercentageCaps default`
+Reset to default: `!config autoModAllCapsPercentageCaps default`
 
 Examples:
 
@@ -1159,9 +1060,7 @@ Examples:
 
 `!config autoModAllCapsPercentageCaps 90`
 
-
-
-## autoModDuplicateTextEnabled
+### autoModDuplicateTextEnabled
 
 If enabled, duplicate text will be auto-moderated.
 
@@ -1171,8 +1070,7 @@ Default: `true`
 
 **Configuration**
 
-Reset to default:
-`!config autoModDuplicateTextEnabled default`
+Reset to default: `!config autoModDuplicateTextEnabled default`
 
 Enable:
 
@@ -1182,11 +1080,9 @@ Disable:
 
 `!config autoModDuplicateTextEnabled false`
 
+### autoModDuplicateTextTimeframeInSeconds
 
-
-## autoModDuplicateTextTimeframeInSeconds
-
-Time (in seconds) within the same text of the same author will be auto-moderated.
+Time \(in seconds\) within the same text of the same author will be auto-moderated.
 
 Type: `Number`
 
@@ -1194,8 +1090,7 @@ Default: `60`
 
 **Configuration**
 
-Reset to default:
-`!config autoModDuplicateTextTimeframeInSeconds default`
+Reset to default: `!config autoModDuplicateTextTimeframeInSeconds default`
 
 Examples:
 
@@ -1203,9 +1098,7 @@ Examples:
 
 `!config autoModDuplicateTextTimeframeInSeconds 20`
 
-
-
-## autoModQuickMessagesEnabled
+### autoModQuickMessagesEnabled
 
 If enabled, message sent quickly after another will be auto-moderated.
 
@@ -1215,8 +1108,7 @@ Default: `true`
 
 **Configuration**
 
-Reset to default:
-`!config autoModQuickMessagesEnabled default`
+Reset to default: `!config autoModQuickMessagesEnabled default`
 
 Enable:
 
@@ -1226,9 +1118,7 @@ Disable:
 
 `!config autoModQuickMessagesEnabled false`
 
-
-
-## autoModQuickMessagesNumberOfMessages
+### autoModQuickMessagesNumberOfMessages
 
 How many messages within the specified amount of time will be considered spam and are auto-moderated.
 
@@ -1238,8 +1128,7 @@ Default: `5`
 
 **Configuration**
 
-Reset to default:
-`!config autoModQuickMessagesNumberOfMessages default`
+Reset to default: `!config autoModQuickMessagesNumberOfMessages default`
 
 Examples:
 
@@ -1247,11 +1136,9 @@ Examples:
 
 `!config autoModQuickMessagesNumberOfMessages 10`
 
+### autoModQuickMessagesTimeframeInSeconds
 
-
-## autoModQuickMessagesTimeframeInSeconds
-
-During what timeframe (in seconds) quick messages will be counted.
+During what timeframe \(in seconds\) quick messages will be counted.
 
 Type: `Number`
 
@@ -1259,8 +1146,7 @@ Default: `3`
 
 **Configuration**
 
-Reset to default:
-`!config autoModQuickMessagesTimeframeInSeconds default`
+Reset to default: `!config autoModQuickMessagesTimeframeInSeconds default`
 
 Examples:
 
@@ -1268,9 +1154,7 @@ Examples:
 
 `!config autoModQuickMessagesTimeframeInSeconds 10`
 
-
-
-## autoModMentionUsersEnabled
+### autoModMentionUsersEnabled
 
 If enabled, too many user mentions will be auto-moderated.
 
@@ -1280,8 +1164,7 @@ Default: `true`
 
 **Configuration**
 
-Reset to default:
-`!config autoModMentionUsersEnabled default`
+Reset to default: `!config autoModMentionUsersEnabled default`
 
 Enable:
 
@@ -1291,9 +1174,7 @@ Disable:
 
 `!config autoModMentionUsersEnabled false`
 
-
-
-## autoModMentionUsersMaxNumberOfMentions
+### autoModMentionUsersMaxNumberOfMentions
 
 Maximum amount of user mentions per message.
 
@@ -1303,8 +1184,7 @@ Default: `5`
 
 **Configuration**
 
-Reset to default:
-`!config autoModMentionUsersMaxNumberOfMentions default`
+Reset to default: `!config autoModMentionUsersMaxNumberOfMentions default`
 
 Examples:
 
@@ -1312,9 +1192,7 @@ Examples:
 
 `!config autoModMentionUsersMaxNumberOfMentions 5`
 
-
-
-## autoModMentionRolesEnabled
+### autoModMentionRolesEnabled
 
 If enabled, too many role mentions will be auto-moderated.
 
@@ -1324,8 +1202,7 @@ Default: `true`
 
 **Configuration**
 
-Reset to default:
-`!config autoModMentionRolesEnabled default`
+Reset to default: `!config autoModMentionRolesEnabled default`
 
 Enable:
 
@@ -1335,9 +1212,7 @@ Disable:
 
 `!config autoModMentionRolesEnabled false`
 
-
-
-## autoModMentionRolesMaxNumberOfMentions
+### autoModMentionRolesMaxNumberOfMentions
 
 Maximum amount of role mentions per message.
 
@@ -1347,8 +1222,7 @@ Default: `3`
 
 **Configuration**
 
-Reset to default:
-`!config autoModMentionRolesMaxNumberOfMentions default`
+Reset to default: `!config autoModMentionRolesMaxNumberOfMentions default`
 
 Examples:
 
@@ -1356,9 +1230,7 @@ Examples:
 
 `!config autoModMentionRolesMaxNumberOfMentions 5`
 
-
-
-## autoModEmojisEnabled
+### autoModEmojisEnabled
 
 If enabled, too many emojis will be auto-moderated.
 
@@ -1368,8 +1240,7 @@ Default: `true`
 
 **Configuration**
 
-Reset to default:
-`!config autoModEmojisEnabled default`
+Reset to default: `!config autoModEmojisEnabled default`
 
 Enable:
 
@@ -1379,9 +1250,7 @@ Disable:
 
 `!config autoModEmojisEnabled false`
 
-
-
-## autoModEmojisMaxNumberOfEmojis
+### autoModEmojisMaxNumberOfEmojis
 
 Maximum amount of emojis per message.
 
@@ -1391,8 +1260,7 @@ Default: `5`
 
 **Configuration**
 
-Reset to default:
-`!config autoModEmojisMaxNumberOfEmojis default`
+Reset to default: `!config autoModEmojisMaxNumberOfEmojis default`
 
 Examples:
 
