@@ -4,7 +4,7 @@ Strikes are points that users get for violating server rules. Every time the use
 
 # What are violations?
 
-Violations are rules that you can enable or disable on your server. Currently, the following violations exist:
+Violations are auto-moderation rules that you can enable or disable on your server. Currently, the following violations exist:
 
 - [invites](#invites)
 - [links](#links)
