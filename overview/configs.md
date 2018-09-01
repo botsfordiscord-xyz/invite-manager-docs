@@ -1,30 +1,43 @@
 # Configs
 
-# Overview
+There are many config options that can be set. You don't have to set all of them. If you just added the bot, just run `!setup`, which will guide you through the most important ones.
 
+# Basic
 - [prefix](#prefix)
 - [lang](#lang)
 - [logChannel](#logchannel)
 - [getUpdates](#getupdates)
+
+# JoinLeaveMessage
 - [joinMessage](#joinmessage)
 - [joinMessageChannel](#joinmessagechannel)
 - [leaveMessage](#leavemessage)
 - [leaveMessageChannel](#leavemessagechannel)
-- [leaderboardStyle](#leaderboardstyle)
-- [hideLeftMembersFromLeaderboard](#hideleftmembersfromleaderboard)
+
+# Invites
 - [autoSubtractFakes](#autosubtractfakes)
 - [autoSubtractLeaves](#autosubtractleaves)
 - [autoSubtractLeaveThreshold](#autosubtractleavethreshold)
+
+# Ranks
 - [rankAssignmentStyle](#rankassignmentstyle)
 - [rankAnnouncementChannel](#rankannouncementchannel)
 - [rankAnnouncementMessage](#rankannouncementmessage)
-- [mutedRole](#mutedrole)
+
+# Leaderboard
+- [leaderboardStyle](#leaderboardstyle)
+- [hideLeftMembersFromLeaderboard](#hideleftmembersfromleaderboard)
+
+# Captcha
 - [captchaVerificationOnJoin](#captchaverificationonjoin)
 - [captchaVerificationWelcomeMessage](#captchaverificationwelcomemessage)
 - [captchaVerificationSuccessMessage](#captchaverificationsuccessmessage)
 - [captchaVerificationFailedMessage](#captchaverificationfailedmessage)
 - [captchaVerificationTimeout](#captchaverificationtimeout)
 - [captchaVerificationLogEnabled](#captchaverificationlogenabled)
+
+# Moderation
+- [mutedRole](#mutedrole)
 - [modLogChannel](#modlogchannel)
 - [modPunishmentBanDeleteMessage](#modpunishmentbandeletemessage)
 - [modPunishmentKickDeleteMessage](#modpunishmentkickdeletemessage)
@@ -1386,3 +1399,4 @@ Examples:
 `!config autoModEmojisMaxNumberOfEmojis 5`
 
 `!config autoModEmojisMaxNumberOfEmojis 10`
+
