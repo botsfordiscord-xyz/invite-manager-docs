@@ -1,17 +1,144 @@
 # Configs
 
+# Overview
+
+prefix
+
+lang
+
+logChannel
+
+getUpdates
+
+joinMessage
+
+joinMessageChannel
+
+leaveMessage
+
+leaveMessageChannel
+
+leaderboardStyle
+
+hideLeftMembersFromLeaderboard
+
+autoSubtractFakes
+
+autoSubtractLeaves
+
+autoSubtractLeaveThreshold
+
+rankAssignmentStyle
+
+rankAnnouncementChannel
+
+rankAnnouncementMessage
+
+mutedRole
+
+captchaVerificationOnJoin
+
+captchaVerificationWelcomeMessage
+
+captchaVerificationSuccessMessage
+
+captchaVerificationFailedMessage
+
+captchaVerificationTimeout
+
+captchaVerificationLogEnabled
+
+modLogChannel
+
+modPunishmentBanDeleteMessage
+
+modPunishmentKickDeleteMessage
+
+modPunishmentSoftbanDeleteMessage
+
+modPunishmentWarnDeleteMessage
+
+modPunishmentMuteDeleteMessage
+
+autoModEnabled
+
+autoModModeratedChannels
+
+autoModModeratedRoles
+
+autoModIgnoredChannels
+
+autoModIgnoredRoles
+
+autoModDeleteBotMessage
+
+autoModDeleteBotMessageTimeoutInSeconds
+
+autoModLogEnabled
+
+autoModDisabledForOldMembers
+
+autoModDisabledForOldMembersThreshold
+
+autoModDisabledForOldMembersReceiveSilentWarning
+
+autoModInvitesEnabled
+
+autoModLinksEnabled
+
+autoModLinksWhitelist
+
+autoModLinksBlacklist
+
+autoModLinksFollowRedirects
+
+autoModWordsEnabled
+
+autoModWordsBlacklist
+
+autoModAllCapsEnabled
+
+autoModAllCapsMinCharacters
+
+autoModAllCapsPercentageCaps
+
+autoModDuplicateTextEnabled
+
+autoModDuplicateTextTimeframeInSeconds
+
+autoModQuickMessagesEnabled
+
+autoModQuickMessagesNumberOfMessages
+
+autoModQuickMessagesTimeframeInSeconds
+
+autoModMentionUsersEnabled
+
+autoModMentionUsersMaxNumberOfMentions
+
+autoModMentionRolesEnabled
+
+autoModMentionRolesMaxNumberOfMentions
+
+autoModEmojisEnabled
+
+autoModEmojisMaxNumberOfEmojis
+
+# Detailed Config Options
+
 ## prefix
 
 The prefix needed to use bot commands. If you don't remember your prefix, you can do @InviteManager config prefix
 
-Type: String
+Type: `String`
 
 Default: `!`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config prefix default`
+
 Examples:
 
 `!config prefix +`
@@ -24,14 +151,15 @@ Examples:
 
 Set the language of the bot
 
-Type: String
+Type: `String`
 
 Default: `en`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config lang default`
+
 Possible values: `de`, `en`, `es`, `fr`, `it`, `nl`, `pt`, `ro`, `sv`
 
 Example:
@@ -44,14 +172,15 @@ Example:
 
 The channel where changes to the database are made (add-ranks, clear-invites, etc.)
 
-Type: Channel
+Type: `Channel`
 
 Default: `null`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config logChannel default`
+
 Examples:
 
 `!config logChannel #channel`
@@ -62,14 +191,15 @@ Examples:
 
 Whether or not you want to receive updates of our bot in the log or mod channel.
 
-Type: Boolean
+Type: `Boolean`
 
 Default: `true`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config getUpdates default`
+
 Enable:
 
 `!config getUpdates true`
@@ -84,14 +214,15 @@ Disable:
 
 The message that will be posted every time a member joins your server.
 
-Type: String
+Type: `String`
 
 Default: `{memberMention} **joined**; Invited by **{inviterName}** (**{numInvites}** invites)`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config joinMessage default`
+
 Examples:
 
 `!config joinMessage `
@@ -104,14 +235,15 @@ Examples:
 
 The channel where join messages will be posted.
 
-Type: Channel
+Type: `Channel`
 
 Default: `null`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config joinMessageChannel default`
+
 Examples:
 
 `!config joinMessageChannel #general`
@@ -124,14 +256,15 @@ Examples:
 
 The message that will be posted every time a member leaves your server.
 
-Type: String
+Type: `String`
 
 Default: `{memberName} **left**; Invited by **{inviterName}**`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config leaveMessage default`
+
 Examples:
 
 `!config leaveMessage `
@@ -144,14 +277,15 @@ Examples:
 
 The channel where leave messages will be posted.
 
-Type: Channel
+Type: `Channel`
 
 Default: `null`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config leaveMessageChannel default`
+
 Examples:
 
 `!config leaveMessageChannel #general`
@@ -164,14 +298,15 @@ Examples:
 
 Change the style how the leaderboard is displayed.
 
-Type: String
+Type: `String`
 
 Default: `normal`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config leaderboardStyle default`
+
 Possible values: `normal`, `table`, `mentions`
 
 Example:
@@ -184,14 +319,15 @@ Example:
 
 Whether or not to hide people who left from the leaderboard.
 
-Type: Boolean
+Type: `Boolean`
 
 Default: `true`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config hideLeftMembersFromLeaderboard default`
+
 Enable:
 
 `!config hideLeftMembersFromLeaderboard true`
@@ -206,14 +342,15 @@ Disable:
 
 Should fake invites automatically be subtracted from invites?
 
-Type: Boolean
+Type: `Boolean`
 
 Default: `true`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoSubtractFakes default`
+
 Enable:
 
 `!config autoSubtractFakes true`
@@ -228,14 +365,15 @@ Disable:
 
 Should members who leave be subtracted from their inviters?
 
-Type: Boolean
+Type: `Boolean`
 
 Default: `true`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoSubtractLeaves default`
+
 Enable:
 
 `!config autoSubtractLeaves true`
@@ -250,14 +388,15 @@ Disable:
 
 The time (in seconds) within leaves will be subtracted from the inviter.
 
-Type: Number
+Type: `Number`
 
 Default: `600`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoSubtractLeaveThreshold default`
+
 Examples:
 
 `!config autoSubtractLeaveThreshold 60`
@@ -270,14 +409,15 @@ Examples:
 
 If set to `highest`, only the highest rank will assigned to the member when reaching a new rank.If set to `all`, all ranks will be assigned to the member when reaching a new rank.
 
-Type: String
+Type: `String`
 
 Default: `all`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config rankAssignmentStyle default`
+
 Possible values: `all`, `highest`
 
 Example:
@@ -290,14 +430,15 @@ Example:
 
 The channel where rank changes are announced.
 
-Type: Channel
+Type: `Channel`
 
 Default: `null`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config rankAnnouncementChannel default`
+
 Examples:
 
 `!config rankAnnouncementChannel `
@@ -310,14 +451,15 @@ Examples:
 
 The message that will be posted when a member reaches a new rank.
 
-Type: String
+Type: `String`
 
 Default: `Congratulations, **{memberMention}** has reached the **{rankName}** rank!`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config rankAnnouncementMessage default`
+
 Examples:
 
 `!config rankAnnouncementMessage `
@@ -330,14 +472,15 @@ Examples:
 
 The role that will be assigned if a member is muted by the bot
 
-Type: Role
+Type: `Role`
 
 Default: `null`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config mutedRole default`
+
 Examples:
 
 `!config mutedRole @muted`
@@ -348,14 +491,15 @@ Examples:
 
 If enabled, new members have to verify they are human by entering a captcha that is sent to them via DM. If they fail to enter the captcha within the specified time, they will be kicked from the server.
 
-Type: Boolean
+Type: `Boolean`
 
 Default: `false`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config captchaVerificationOnJoin default`
+
 Enable:
 
 `!config captchaVerificationOnJoin true`
@@ -370,14 +514,15 @@ Disable:
 
 The message users receive together with the captcha (via DM)
 
-Type: String
+Type: `String`
 
 Default: `Welcome to the server **{serverName}**! For extra protection, new members are required to enter a captcha.`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config captchaVerificationWelcomeMessage default`
+
 Examples:
 
 `!config captchaVerificationWelcomeMessage Welcome, please enter the captcha below!`
@@ -388,14 +533,15 @@ Examples:
 
 The message users will get after successfully entering the captcha.
 
-Type: String
+Type: `String`
 
 Default: `You have successfully entered the captcha. Welcome to the server!`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config captchaVerificationSuccessMessage default`
+
 Examples:
 
 `!config captchaVerificationSuccessMessage Thanks for entering the captcha, enjoy our server!`
@@ -406,14 +552,15 @@ Examples:
 
 The message users will get if they fail to enter the right captcha within the specified time. After getting this message, they will be kicked from the server.
 
-Type: String
+Type: `String`
 
 Default: `You did not enter the captha right within the specified time.We're sorry, but we have to kick you from the server. Feel free to join again.`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config captchaVerificationFailedMessage default`
+
 Examples:
 
 `!config captchaVerificationFailedMessage Looks like you are not human :(. You can join again and try again later if this was a mistake!`
@@ -424,14 +571,15 @@ Examples:
 
 The time within the member needs to enter the captcha successfully (in seconds).
 
-Type: Number
+Type: `Number`
 
 Default: `180`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config captchaVerificationTimeout default`
+
 Examples:
 
 `!config captchaVerificationTimeout 60`
@@ -444,14 +592,15 @@ Examples:
 
 Whether or not new captcha entries are logged to a channel
 
-Type: Boolean
+Type: `Boolean`
 
 Default: `true`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config captchaVerificationLogEnabled default`
+
 Enable:
 
 `!config captchaVerificationLogEnabled true`
@@ -466,14 +615,15 @@ Disable:
 
 The channel where moderation log messages will be posted.
 
-Type: Channel
+Type: `Channel`
 
 Default: `null`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config modLogChannel default`
+
 Examples:
 
 `!config modLogChannel #channel`
@@ -486,14 +636,15 @@ Examples:
 
 Whether or not the own and bot message should be deleted when a mod does !ban.
 
-Type: Boolean
+Type: `Boolean`
 
 Default: `true`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config modPunishmentBanDeleteMessage default`
+
 Enable:
 
 `!config modPunishmentBanDeleteMessage true`
@@ -508,14 +659,15 @@ Disable:
 
 Whether or not the own and bot message should be deleted when a mod does !kick.
 
-Type: Boolean
+Type: `Boolean`
 
 Default: `true`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config modPunishmentKickDeleteMessage default`
+
 Enable:
 
 `!config modPunishmentKickDeleteMessage true`
@@ -530,14 +682,15 @@ Disable:
 
 Whether or not the own and bot message should be deleted when a mod does !softban.
 
-Type: Boolean
+Type: `Boolean`
 
 Default: `true`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config modPunishmentSoftbanDeleteMessage default`
+
 Enable:
 
 `!config modPunishmentSoftbanDeleteMessage true`
@@ -552,14 +705,15 @@ Disable:
 
 Whether or not the own and bot message should be deleted when a mod does !warn.
 
-Type: Boolean
+Type: `Boolean`
 
 Default: `true`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config modPunishmentWarnDeleteMessage default`
+
 Enable:
 
 `!config modPunishmentWarnDeleteMessage true`
@@ -574,14 +728,15 @@ Disable:
 
 Whether or not the own and bot message should be deleted when a mod does !mute.
 
-Type: Boolean
+Type: `Boolean`
 
 Default: `true`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config modPunishmentMuteDeleteMessage default`
+
 Enable:
 
 `!config modPunishmentMuteDeleteMessage true`
@@ -596,14 +751,15 @@ Disable:
 
 Whether or not auto-moderation is enabled globally.
 
-Type: Boolean
+Type: `Boolean`
 
 Default: `false`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModEnabled default`
+
 Enable:
 
 `!config autoModEnabled true`
@@ -618,14 +774,15 @@ Disable:
 
 Set channels that should be auto-moderated. (Comma separated list)
 
-Type: List of Channel
+Type: `List of Channel`
 
 Default: `null`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModModeratedChannels default`
+
 Examples:
 
 `!config autoModModeratedChannels #general`
@@ -638,14 +795,15 @@ Examples:
 
 Roles that will be auto-moderated. (Comma separated list)
 
-Type: List of Role
+Type: `List of Role`
 
 Default: `null`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModModeratedRoles default`
+
 Examples:
 
 `!config autoModModeratedRoles @NewMembers`
@@ -658,14 +816,15 @@ Examples:
 
 Set channels that should not be auto-moderated. (Comma separated list)
 
-Type: List of Channel
+Type: `List of Channel`
 
 Default: `null`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModIgnoredChannels default`
+
 Examples:
 
 `!config autoModIgnoredChannels #general`
@@ -678,14 +837,15 @@ Examples:
 
 Roles that will not be auto-moderated. (Comma separated list)
 
-Type: List of Role
+Type: `List of Role`
 
 Default: `null`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModIgnoredRoles default`
+
 Examples:
 
 `!config autoModIgnoredRoles @TrustedMembers`
@@ -698,14 +858,15 @@ Examples:
 
 Whether or not to delete bot messages after auto-moderation.
 
-Type: Boolean
+Type: `Boolean`
 
 Default: `true`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModDeleteBotMessage default`
+
 Enable:
 
 `!config autoModDeleteBotMessage true`
@@ -720,14 +881,15 @@ Disable:
 
 How long (in seconds) until auto-moderation responses from the bot are deleted. If set to 0, the bot will not post a message and only delete the violating message and warn the user.
 
-Type: Number
+Type: `Number`
 
 Default: `5`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModDeleteBotMessageTimeoutInSeconds default`
+
 Examples:
 
 `!config autoModDeleteBotMessageTimeoutInSeconds 5`
@@ -740,14 +902,15 @@ Examples:
 
 If set to yes, all moderation actions will be logged to the `modLogChannel`.
 
-Type: Boolean
+Type: `Boolean`
 
 Default: `true`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModLogEnabled default`
+
 Enable:
 
 `!config autoModLogEnabled true`
@@ -762,14 +925,15 @@ Disable:
 
 If enabled, members that have been on the server for a certain amount of time will not be auto-moderated. You can set the threshold for how long that is.
 
-Type: Boolean
+Type: `Boolean`
 
 Default: `false`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModDisabledForOldMembers default`
+
 Enable:
 
 `!config autoModDisabledForOldMembers true`
@@ -784,14 +948,15 @@ Disable:
 
 After how long (in seconds) members will no longer be auto-moderated (if enabled).
 
-Type: Number
+Type: `Number`
 
 Default: `604800`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModDisabledForOldMembersThreshold default`
+
 Examples:
 
 `!config autoModDisabledForOldMembersThreshold 604800` (1 week)``
@@ -804,14 +969,15 @@ Examples:
 
 If enabled, old members will still receive a warning via DM when violating a rule.
 
-Type: Boolean
+Type: `Boolean`
 
 Default: `true`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModDisabledForOldMembersReceiveSilentWarning default`
+
 Enable:
 
 `!config autoModDisabledForOldMembersReceiveSilentWarning true`
@@ -826,14 +992,15 @@ Disable:
 
 If enabled, invite links will be auto-moderated.
 
-Type: Boolean
+Type: `Boolean`
 
 Default: `true`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModInvitesEnabled default`
+
 Enable:
 
 `!config autoModInvitesEnabled true`
@@ -848,14 +1015,15 @@ Disable:
 
 If enabled, links will be auto-moderated.
 
-Type: Boolean
+Type: `Boolean`
 
 Default: `true`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModLinksEnabled default`
+
 Enable:
 
 `!config autoModLinksEnabled true`
@@ -870,14 +1038,15 @@ Disable:
 
 A comma separated list of links that are allowed to be posted.
 
-Type: List of String
+Type: `List of String`
 
 Default: `null`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModLinksWhitelist default`
+
 Examples:
 
 `!config autoModLinksWhitelist discordbots.org`
@@ -890,14 +1059,15 @@ Examples:
 
 A comma separated list of links that are not allowed to be posted.
 
-Type: List of String
+Type: `List of String`
 
 Default: `null`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModLinksBlacklist default`
+
 Examples:
 
 `!config autoModLinksBlacklist google.com`
@@ -910,14 +1080,15 @@ Examples:
 
 If enabled, our bot will follow redirects to see where a link leads (to prevent people from using link-shorteners.)
 
-Type: Boolean
+Type: `Boolean`
 
 Default: `true`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModLinksFollowRedirects default`
+
 Enable:
 
 `!config autoModLinksFollowRedirects true`
@@ -932,14 +1103,15 @@ Disable:
 
 If enabled, certain words will be auto-moderated.
 
-Type: Boolean
+Type: `Boolean`
 
 Default: `true`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModWordsEnabled default`
+
 Enable:
 
 `!config autoModWordsEnabled true`
@@ -954,14 +1126,15 @@ Disable:
 
 A comma separated list of words that will be auto-moderated.
 
-Type: List of String
+Type: `List of String`
 
 Default: `null`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModWordsBlacklist default`
+
 Examples:
 
 `!config autoModWordsBlacklist gay`
@@ -974,14 +1147,15 @@ Examples:
 
 If enabled, messages written in all/mostly CAPS will be auto-moderated.
 
-Type: Boolean
+Type: `Boolean`
 
 Default: `true`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModAllCapsEnabled default`
+
 Enable:
 
 `!config autoModAllCapsEnabled true`
@@ -996,14 +1170,15 @@ Disable:
 
 How long a message needs to be until this violation is activated.
 
-Type: Number
+Type: `Number`
 
 Default: `10`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModAllCapsMinCharacters default`
+
 Examples:
 
 `!config autoModAllCapsMinCharacters 5`
@@ -1016,14 +1191,15 @@ Examples:
 
 Percentage of letters that need to be CAPS to be triggered.
 
-Type: Number
+Type: `Number`
 
 Default: `70`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModAllCapsPercentageCaps default`
+
 Examples:
 
 `!config autoModAllCapsPercentageCaps 50`
@@ -1036,14 +1212,15 @@ Examples:
 
 If enabled, duplicate text will be auto-moderated.
 
-Type: Boolean
+Type: `Boolean`
 
 Default: `true`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModDuplicateTextEnabled default`
+
 Enable:
 
 `!config autoModDuplicateTextEnabled true`
@@ -1058,14 +1235,15 @@ Disable:
 
 Time (in seconds) within the same text of the same author will be auto-moderated.
 
-Type: Number
+Type: `Number`
 
 Default: `60`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModDuplicateTextTimeframeInSeconds default`
+
 Examples:
 
 `!config autoModDuplicateTextTimeframeInSeconds 5`
@@ -1078,14 +1256,15 @@ Examples:
 
 If enabled, message sent quickly after another will be auto-moderated.
 
-Type: Boolean
+Type: `Boolean`
 
 Default: `true`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModQuickMessagesEnabled default`
+
 Enable:
 
 `!config autoModQuickMessagesEnabled true`
@@ -1100,14 +1279,15 @@ Disable:
 
 How many messages within the specified amount of time will be considered spam and are auto-moderated.
 
-Type: Number
+Type: `Number`
 
 Default: `5`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModQuickMessagesNumberOfMessages default`
+
 Examples:
 
 `!config autoModQuickMessagesNumberOfMessages 5`
@@ -1120,14 +1300,15 @@ Examples:
 
 During what timeframe (in seconds) quick messages will be counted.
 
-Type: Number
+Type: `Number`
 
 Default: `3`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModQuickMessagesTimeframeInSeconds default`
+
 Examples:
 
 `!config autoModQuickMessagesTimeframeInSeconds 2`
@@ -1140,14 +1321,15 @@ Examples:
 
 If enabled, too many user mentions will be auto-moderated.
 
-Type: Boolean
+Type: `Boolean`
 
 Default: `true`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModMentionUsersEnabled default`
+
 Enable:
 
 `!config autoModMentionUsersEnabled true`
@@ -1162,14 +1344,15 @@ Disable:
 
 Maximum amount of user mentions per message.
 
-Type: Number
+Type: `Number`
 
 Default: `5`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModMentionUsersMaxNumberOfMentions default`
+
 Examples:
 
 `!config autoModMentionUsersMaxNumberOfMentions 2`
@@ -1182,14 +1365,15 @@ Examples:
 
 If enabled, too many role mentions will be auto-moderated.
 
-Type: Boolean
+Type: `Boolean`
 
 Default: `true`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModMentionRolesEnabled default`
+
 Enable:
 
 `!config autoModMentionRolesEnabled true`
@@ -1204,14 +1388,15 @@ Disable:
 
 Maximum amount of role mentions per message.
 
-Type: Number
+Type: `Number`
 
 Default: `3`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModMentionRolesMaxNumberOfMentions default`
+
 Examples:
 
 `!config autoModMentionRolesMaxNumberOfMentions 2`
@@ -1224,14 +1409,15 @@ Examples:
 
 If enabled, too many emojis will be auto-moderated.
 
-Type: Boolean
+Type: `Boolean`
 
 Default: `true`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModEmojisEnabled default`
+
 Enable:
 
 `!config autoModEmojisEnabled true`
@@ -1246,14 +1432,15 @@ Disable:
 
 Maximum amount of emojis per message.
 
-Type: Number
+Type: `Number`
 
 Default: `5`
 
-### Configuration
+**Configuration**
 
 Reset to default:
 `!config autoModEmojisMaxNumberOfEmojis default`
+
 Examples:
 
 `!config autoModEmojisMaxNumberOfEmojis 5`
