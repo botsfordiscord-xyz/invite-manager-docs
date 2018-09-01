@@ -42,6 +42,8 @@ You can check the current config by doing:
 
 This violation is triggered whenever the user posts an invite link to another discord server.
 
+Example:
+
 ```!strikeconfig invites 1```
 
 To delete the strike config:
@@ -56,6 +58,8 @@ To delete the strike config:
 ### links
 
 This violation is triggered whenever the user posts a link.
+
+Example:
 
 ```!strikeconfig links 1```
 
@@ -75,6 +79,8 @@ To delete the strike config:
 
 This violation is triggered whenever the user posts blacklisted words.
 
+Example:
+
 ```!strikeconfig words 1```
 
 To delete the strike config:
@@ -90,6 +96,8 @@ To delete the strike config:
 ### allCaps
 
 This violation is triggered whenever the user posts a message that is mostly in CAPS.
+
+Example:
 
 ```!strikeconfig allCaps 1```
 
@@ -108,6 +116,8 @@ To delete the strike config:
 
 This violation is triggered whenever the user posts the same text multiple times.
 
+Example:
+
 ```!strikeconfig duplicateText 1```
 
 To delete the strike config:
@@ -123,6 +133,8 @@ To delete the strike config:
 ### quickMessages
 
 This violation is triggered whenever the user quickly posts messages.
+
+Example:
 
 ```!strikeconfig quickMessages 1```
 
@@ -141,6 +153,8 @@ To delete the strike config:
 
 This violation is triggered whenever the user mentions mutliple users.
 
+Example:
+
 ```!strikeconfig mentionUsers 1```
 
 To delete the strike config:
@@ -157,6 +171,8 @@ To delete the strike config:
 
 This violation is triggered whenever the user mentions mutliple roles.
 
+Example:
+
 ```!strikeconfig mentionRoles 1```
 
 To delete the strike config:
@@ -172,6 +188,8 @@ To delete the strike config:
 ### emojis
 
 This violation is triggered whenever the user posts multiple emojis.
+
+Example:
 
 ```!strikeconfig emojis 1```
 
