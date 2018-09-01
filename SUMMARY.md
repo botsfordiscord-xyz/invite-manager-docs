@@ -6,8 +6,6 @@
 ## Overview
 
 * [Getting Started](overview/getting-started.md)
-* [Full Command Reference](overview/commands.md)
-* [Full Config Reference](overview/configs.md)
 
 ## Invites
 
@@ -27,6 +25,8 @@
 
 ## Other
 
+* [Full Command Reference](other/commands.md)
+* [Full Config Reference](other/configs.md)
 * [FAQ](other/faq.md)
 * [Webpanel](other/webpanel.md)
 * [Translations](other/translations.md)
