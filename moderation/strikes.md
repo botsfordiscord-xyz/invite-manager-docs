@@ -8,15 +8,15 @@ Strikes are points that users get for violating server rules. Every time the use
 
 Violations are rules that you can enable or disable on your server. Currently, the following violations exist:
 
-- invites
-- links
-- words
-- allCaps
-- duplicateText
-- quickMessages
-- mentionUsers
-- mentionRoles
-- emojis
+- [invites](#invites)
+- [links](#links)
+- [words](#words)
+- [allCaps](#allcaps)
+- [duplicateText](#duplicatetext)
+- [quickMessages](#quickmessages)
+- [mentionUsers](#mentionusers)
+- [mentionRoles](#mentionroles)
+- [emojis](#emojis)
 
 For each of those violations, you have to define how many strikes will be given if someone violates it. You can do that by using the `strikeconfig` command:
 
