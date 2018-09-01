@@ -1,12 +1,12 @@
 # Table of contents
 
 * [InviteManager](README.md)
-* [InviteManager Pro](invitemanager-pro.md)
 
 ## Overview
 
 * [Getting Started](overview/getting-started.md)
 * [FAQ](overview/faq.md)
+* [InviteManager Pro](overview/invitemanager-pro.md)
 
 ## Invites
 
