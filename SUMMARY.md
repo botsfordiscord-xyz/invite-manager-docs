@@ -6,7 +6,7 @@
 ## Overview
 
 * [Getting Started](overview/getting-started.md)
-* [Commands](overview/commands.md)
+* [Full Command Reference](overview/commands.md)
 * [Full Config Reference](overview/configs.md)
 
 ## Invites

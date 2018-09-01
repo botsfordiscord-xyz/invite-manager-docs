@@ -1,4 +1,4 @@
-# Commands
+# Full Command Reference
 
 To get a list of available commands, do `!help` on your server.
 
