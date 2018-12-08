@@ -9,7 +9,7 @@ The following languages are available
 * Portuguese \(pt\)
   * thanks to **CyberDarkBR**
 * French \(fr\)
-  * thanks to **Lorio - Le P'tit PandaRoux** 
+  * thanks to **Lorio** 
 * German \(de, incomplete\)
   * thanks to **Cuz\_Im\_Master\_YT** and **Hardener**
 * Italian \(it, incomplete\)
